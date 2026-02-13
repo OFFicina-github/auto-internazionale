@@ -1,0 +1,42 @@
+#header-outer[data-lhe="animated_underline"].transparent.dark-slide #top nav > ul > li > a .menu-title-text:after{
+    border-color: #c73333 !important; 
+}
+
+@media only screen and (max-width: 999px) {
+    .slide-out-widget-area-toggle.mobile-icon a>span>.hover-effect {}
+
+    body.material #header-outer.transparent .slide-out-widget-area-toggle a .close-line {
+        background-color: black !important;
+    }
+
+    #slide-out-widget-area.fullscreen-split .inner-wrap {
+        margin-top: 32px;
+    }
+
+    #header-outer.side-widget-open #top #logo img {
+        opacity: 1 !important;
+    }
+
+
+    #header-outer.transparent[data-permanent-transparent="false"] #top .slide-out-widget-area-toggle.mobile-icon i:before,
+    #header-outer.transparent[data-permanent-transparent="false"] #top .slide-out-widget-area-toggle.mobile-icon i:after,
+    body.material.mobile #header-outer.transparent:not([data-permanent-transparent="1"]) header .slide-out-widget-area-toggle a .close-line,
+    body #header-outer[data-permanent-transparent="1"].transparent:not(.dark-slide)>#top .span_9>.slide-out-widget-area-toggle .lines-button:after,
+    body #header-outer[data-permanent-transparent="1"].transparent:not(.dark-slide)>#top .span_9>.slide-out-widget-area-toggle .lines:before,
+    body #header-outer[data-permanent-transparent="1"].transparent:not(.dark-slide)>#top .span_9>.slide-out-widget-area-toggle .lines:after,
+    #header-outer[data-lhe="animated_underline"].transparent .nectar-header-text-content a:after {
+        background-color: black !important;
+    }
+
+
+
+    #header-outer[data-permanent-transparent="1"][data-transparent-header=true].transparent:not(.dark-slide) #logo img.dark-version {
+        opacity: 1 !important;
+
+    }
+
+
+    body #slide-out-widget-area[class*="fullscreen"] .current-menu-item>a, body #slide-out-widget-area.fullscreen a:hover, body #slide-out-widget-area.fullscreen-split a:hover, body #slide-out-widget-area.fullscreen-split .off-canvas-menu-container .current-menu-item>a, #slide-out-widget-area.slide-out-from-right-hover a:hover, body.material #slide-out-widget-area.slide-out-from-right .off-canvas-social-links a i:after, body #slide-out-widget-area.slide-out-from-right a:hover, body #slide-out-widget-area.fullscreen-alt .inner .off-canvas-menu-container li a:hover, #slide-out-widget-area.slide-out-from-right-hover .inner .off-canvas-menu-container li a:hover, #slide-out-widget-area.slide-out-from-right-hover .inner .off-canvas-menu-container li.current-menu-item>a, #slide-out-widget-area.slide-out-from-right-hover.no-text-effect .inner .off-canvas-menu-container li a:hover, body #slide-out-widget-area .slide_out_area_close:hover .icon-default-style[class^="icon-"], body.material #slide-out-widget-area.slide-out-from-right .off-canvas-menu-container .current-menu-item>a, #slide-out-widget-area .widget .nectar_widget[class*="nectar_blog_posts_"] li:not(.has-img) a:hover .post-title{
+        color: white !important;
+    }
+}

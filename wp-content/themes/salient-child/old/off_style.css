@@ -1,0 +1,2237 @@
+h1 {
+  font-size: 52px;
+  line-height: 1;
+}
+
+h6 {
+  font-size: 14px;
+  color: #C73333 !important;
+  letter-spacing: 2px;
+}
+
+img {
+  margin-bottom: 0 !important;
+}
+
+#breadcrumbs {
+  font-family: Krona One, sans-serif !important;
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+
+a.btn_custom {
+  font-family: "Krona One", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 14vh;
+  left: 74.43vw;
+  z-index: 3;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  transition: all 500ms;
+}
+a.btn_custom::after {
+  content: "";
+  display: block;
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/btn_white.svg);
+  height: 12px;
+  width: 109%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: absolute;
+  top: -24px;
+  left: -10px;
+  transition: all 500ms;
+}
+a.btn_custom:hover {
+  opacity: 0.5;
+}
+a.btn_custom:hover::after {
+  left: 40px;
+}
+a.btn_custom.btn_mobile {
+  color: #ffffff;
+  position: static !important;
+  padding: 10px 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.431372549);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.431372549);
+  margin-top: -25px;
+}
+a.btn_custom.btn_mobile::after {
+  content: none !important;
+}
+
+a.btn_standard.nectar-button.large.regular.accent-color.regular-button {
+  font-weight: 200 !important;
+  margin-bottom: 0;
+  padding: 0;
+  background-color: transparent !important;
+  color: #222222;
+  font-family: "Krona One", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  z-index: 1;
+  text-transform: uppercase;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  transition: all 500ms;
+}
+a.btn_standard.nectar-button.large.regular.accent-color.regular-button::after {
+  content: "";
+  display: block;
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/decor_sx.svg);
+  height: 10px;
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  transition: all 500ms;
+}
+a.btn_standard.nectar-button.large.regular.accent-color.regular-button:hover {
+  opacity: 0.5;
+}
+a.btn_standard.nectar-button.large.regular.accent-color.regular-button:hover::after {
+  left: 40px;
+}
+
+#header-outer nav ul.sf-menu li {
+  text-transform: uppercase;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu {
+  flex-wrap: wrap;
+  display: flex;
+  overflow: visible !important;
+  height: calc(100vh - 164px);
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu::after {
+  content: "";
+  display: block;
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/decor-element.svg);
+  height: 100vh;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 30vw;
+  position: absolute;
+  top: -104px;
+  right: 0;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu a.btn_custom {
+  color: #ffffff;
+  line-height: 26px !important;
+  left: calc(74.43vw - 3px);
+  bottom: 20.5vh;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li {
+  width: 16%;
+  min-width: 16%;
+  max-width: 16%;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li > a:first-child {
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li a {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  line-height: 1.25;
+  margin-bottom: 10px;
+  font-size: 11px;
+  background-color: transparent !important;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li ul.sub-menu li a span {
+  font-family: Montserrat, sans-serif !important;
+  letter-spacing: 1px !important;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-4 > ul.sub-menu {
+  flex-wrap: wrap;
+  display: flex;
+  overflow: visible !important;
+  height: calc(100vh - 164px);
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-4 > ul.sub-menu::after {
+  content: "";
+  display: block;
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/decor-element.svg);
+  height: 100vh;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 30vw;
+  position: absolute;
+  top: -104px;
+  right: 0;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-4 > ul.sub-menu a.btn_custom {
+  color: #ffffff;
+  line-height: 26px !important;
+  left: calc(74.43vw - 3px);
+  bottom: 20.5vh;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-4 > ul.sub-menu > li {
+  width: 20%;
+  min-width: 20%;
+  max-width: 20%;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-4 > ul.sub-menu > li > a:first-child {
+  height: 65px;
+  display: flex;
+  align-items: center;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-4 > ul.sub-menu > li a {
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+  line-height: 1.25;
+  margin-bottom: 10px;
+  font-size: 11px;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-4 > ul.sub-menu > li ul.sub-menu li a span {
+  font-family: Montserrat, sans-serif !important;
+  letter-spacing: 1px !important;
+}
+#header-outer nav ul.sf-menu li a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-4#menu-item-28 > ul.sub-menu > li > a:first-child {
+  align-items: flex-start;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-4#menu-item-28 > ul.sub-menu > li > a:first-child span {
+  display: block;
+  padding: 4px 6px;
+  font-size: 12px !important;
+  border-left: 2px solid #C73333;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-6#menu-item-30 > ul.sub-menu > li > a:first-child {
+  align-items: flex-start;
+}
+#header-outer nav ul.sf-menu li.megamenu.columns-6#menu-item-30 > ul.sub-menu > li > a:first-child span {
+  display: block;
+  padding: 4px 6px;
+  font-size: 12px !important;
+  border-left: 2px solid #C73333;
+}
+#header-outer #menu-item-393 {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
+  height: -moz-fit-content !important;
+  height: fit-content !important;
+  /* ul {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;C
+    li {
+      width: fit-content;
+      height: fit-content !important;
+      margin: 0 10px 10px 0;
+      padding: 10px 20px;
+      background-color: rgba(255, 255, 255, 0.06) !important;
+      a {
+        margin-bottom: 0 !important;
+      }
+      span {
+        display: block;
+        padding: 4px 6px;
+        font-size: 12px!important;
+        border-left: 2px solid $r;
+        font-family: Krona One !important;
+      }
+    }
+  } */
+}
+
+body[data-bg-header=true] div#header-outer[data-permanent-transparent="1"].transparent {
+  background-color: #ffffff !important;
+}
+
+#footer-outer .footer_col_1 img,
+#footer-outer .footer_col_2 img,
+#footer-outer .footer_col_3 img {
+  margin-bottom: 10px !important;
+}
+#footer-outer .footer_col_1 i,
+#footer-outer .footer_col_2 i,
+#footer-outer .footer_col_3 i {
+  font-size: 16px;
+  color: #C73333;
+  margin-right: 10px;
+}
+#footer-outer .footer_col_1 p,
+#footer-outer .footer_col_2 p,
+#footer-outer .footer_col_3 p {
+  padding-bottom: 10px !important;
+}
+#footer-outer .footer_col_1 p:first-child,
+#footer-outer .footer_col_2 p:first-child,
+#footer-outer .footer_col_3 p:first-child {
+  font-weight: 700;
+  padding-bottom: 30px !important;
+}
+#footer-outer .footer_col_1 h4,
+#footer-outer .footer_col_2 h4,
+#footer-outer .footer_col_3 h4 {
+  letter-spacing: 2px;
+  color: #C73333;
+}
+#footer-outer .footer_col_2 a,
+#footer-outer .footer_col_3 a {
+  display: block;
+  padding-bottom: 10px;
+}
+#footer-outer .footer_col_3 img {
+  margin-bottom: 0 !important;
+  margin-top: 30px !important;
+  width: 100px;
+}
+#footer-outer .footer_col_1 img {
+  width: 70%;
+}
+#footer-outer .block-9,
+#footer-outer .block-10,
+#footer-outer .block-11 {
+  margin-bottom: 0 !important;
+}
+#footer-outer #copyright .col_last {
+  display: none;
+}
+#footer-outer #copyright .col.span_5 {
+  width: 100%;
+  margin-right: 0 !important;
+  display: flex;
+  justify-content: center;
+}
+#footer-outer #copyright .col.span_5 p {
+  padding-bottom: 0;
+}
+#footer-outer #copyright .col.span_5 div {
+  margin-left: 40px;
+  display: flex;
+  justify-content: center;
+}
+#footer-outer #copyright .col.span_5 div img {
+  margin-left: 10px;
+}
+
+#section_hero h1 {
+  max-width: 80%;
+}
+#section_hero .row-bg-overlay {
+  background-color: transparent !important;
+}
+#section_hero .row-bg-overlay::after {
+  content: "";
+  display: block;
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/decor-element.svg);
+  height: 100vh;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 30vw;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+#section_hero .row-bg {
+  height: calc(100vh - 104px);
+  margin-top: 104px;
+}
+#section_hero .row_col_wrap_12 {
+  pointer-events: none;
+}
+
+#section_boxes .col_decoration {
+  transform: scale(1);
+  transition: all 300ms;
+  background-color: #fff;
+}
+#section_boxes .col_decoration .column-image-bg {
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+#section_boxes .col_decoration .vc_column-inner > .wpb_wrapper {
+  padding: 50px 0 65px 50px;
+  position: relative;
+}
+#section_boxes .col_decoration .vc_column-inner > .wpb_wrapper::after {
+  content: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/decor_sx.svg);
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+#section_boxes .col_decoration .vc_column-inner > .wpb_wrapper h3 {
+  font-size: 18px;
+  line-height: 1.3;
+  margin-top: 50px;
+}
+#section_boxes .col_decoration .vc_column-inner > .wpb_wrapper img {
+  margin-bottom: 50px !important;
+}
+#section_boxes .col_decoration.destra .vc_column-inner > .wpb_wrapper {
+  padding: 50px 50px 65px 0;
+}
+#section_boxes .col_decoration.destra .vc_column-inner > .wpb_wrapper::after {
+  content: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/decor_dx.svg);
+  right: 0;
+  left: auto;
+}
+#section_boxes .col_decoration.allineamento_destra {
+  margin: 0 0 0 auto !important;
+}
+#section_boxes .col_decoration:hover {
+  transform: scale(1.03);
+}
+
+#section_cta_about a.btn_standard {
+  margin: 0 auto !important;
+}
+
+#section_blog_evidenza .wpb_wrapper > div:first-child {
+  margin-bottom: 0;
+  background-image: url("https://offdevelop.it/internazionale/wp-content/uploads/2022/07/blog_sfondo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  padding: 50px 125px 50px 0;
+  position: absolute;
+  top: -200px;
+}
+#section_blog_evidenza .wpb_wrapper > div:first-child::after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: 100%;
+  top: 0;
+  height: 143px;
+  width: 500px;
+  background-color: #ffffff;
+}
+#section_blog_evidenza .blog-recent .post > a {
+  display: block;
+  overflow: hidden;
+}
+#section_blog_evidenza .blog-recent .post > a img {
+  transform: scale(1);
+  transition: all 250ms;
+}
+#section_blog_evidenza .blog-recent .post > a img:hover {
+  transform: scale(1.1);
+}
+#section_blog_evidenza .blog-recent .post > a::after {
+  content: "";
+  display: block;
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/decor_sx.svg);
+  height: 10px;
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: absolute;
+  top: 267px;
+  left: 0;
+  transition: all 500ms;
+}
+#section_blog_evidenza .blog-recent .post h3.title {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 30px;
+  color: #222222;
+  opacity: 1;
+  transition: all 250ms;
+}
+#section_blog_evidenza .blog-recent .post h3.title:hover {
+  opacity: 0.5;
+}
+#section_blog_evidenza .blog-recent .post .meta-category {
+  display: none;
+}
+#section_blog_evidenza .blog-recent .post .excerpt {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.5;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#section_contattaci .wpb_column:first-of-type {
+  padding-right: 10%;
+}
+
+.wpcf7 p {
+  padding-bottom: 0 !important;
+}
+.wpcf7 .flex_custom {
+  display: flex;
+}
+.wpcf7 .flex_custom p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.wpcf7 .flex_custom.mobile {
+  flex-direction: column-reverse;
+  align-items: flex-start;
+}
+.wpcf7 .flex_custom.mobile .input_submit {
+  margin-top: 20px;
+}
+.wpcf7 .flex_custom span.wpcf7-form-control-wrap[data-name=nome],
+.wpcf7 .flex_custom span.wpcf7-form-control-wrap[data-name=cognome],
+.wpcf7 .flex_custom span.wpcf7-form-control-wrap[data-name=email],
+.wpcf7 .flex_custom span.wpcf7-form-control-wrap[data-name=telefono] {
+  width: 49.4%;
+}
+.wpcf7 .disclaimer p:first-child {
+  width: 81%;
+  display: flex;
+  align-items: center;
+}
+.wpcf7 .disclaimer p:first-child .wpcf7-acceptance {
+  margin-right: 5px;
+}
+.wpcf7 .disclaimer p:first-child .wpcf7-acceptance .wpcf7-list-item {
+  margin: 0;
+}
+.wpcf7 .obbligatorio {
+  font-size: 12px;
+  font-style: italic;
+}
+.wpcf7 input, .wpcf7 textarea {
+  border: 2px solid rgba(59, 65, 71, 0.2);
+  border-radius: 0;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+}
+.wpcf7 form.wpcf7-form .flex_custom .input_submit {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+}
+.wpcf7 form.wpcf7-form .flex_custom .input_submit input[type=submit] {
+  font-weight: 200 !important;
+  margin-bottom: 0;
+  padding: 0 !important;
+  background-color: transparent !important;
+  color: #222222;
+  font-family: "Krona One", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  z-index: 1;
+  text-transform: uppercase;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  border: none !important;
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+  transition: all 500ms;
+}
+.wpcf7 form.wpcf7-form .flex_custom .input_submit::after {
+  content: "";
+  display: block;
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/decor_sx.svg);
+  height: 10px;
+  width: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: absolute;
+  top: 36px;
+  left: 0;
+  transition: all 500ms;
+}
+.wpcf7 form.wpcf7-form .flex_custom .input_submit:hover {
+  opacity: 0.5;
+}
+.wpcf7 form.wpcf7-form .flex_custom .input_submit:hover::after {
+  left: 40px;
+}
+.wpcf7 .wpcf7-spinner {
+  display: none;
+}
+
+.wpcf7-not-valid-tip {
+  position: absolute;
+  top: -15px !important;
+  left: 20px;
+}
+
+.homepage_slider {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  max-height: 100vh;
+  overflow: hidden;
+}
+.homepage_slider .slider_galleria img {
+  height: 100vh;
+  width: 100vw !important;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+.homepage_slider .row-bg-wrap {
+  z-index: 12;
+}
+
+.row.heading-title.hentry {
+  display: none;
+}
+
+#section_single_post_slider {
+  margin-bottom: 0;
+}
+#section_single_post_slider .vc_col-sm-9 {
+  padding-left: 0;
+  min-height: 500px;
+  background-image: url("https://offdevelop.it/internazionale/wp-content/uploads/2022/10/bg_sample_no_content.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#section_single_post_slider .vc_col-sm-3 {
+  padding-right: 0;
+  min-height: 500px;
+}
+#section_single_post_slider .vc_col-sm-3 .wpb_wrapper {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#section_single_post_slider .vc_col-sm-3 .column-image-bg-wrap .column-image-bg {
+  height: 55%;
+  background-repeat: no-repeat;
+}
+#section_single_post_slider.prodotti .vc_col-sm-3 .column-image-bg-wrap .column-image-bg {
+  height: 100%;
+}
+#section_single_post_slider a.btn_standard.nectar-button.large.regular.accent-color.regular-button {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+#section_single_post_slider .categoria_principale .wpb_wrapper img.megaicon {
+  width: 280px !important;
+  padding-left: 5vw;
+}
+#section_single_post_slider section.sezione_galleria {
+  width: 940px;
+}
+#section_single_post_slider section.sezione_galleria .slider_galleria_nav {
+  display: none;
+}
+#section_single_post_slider section.sezione_galleria .slick-slide {
+  height: 500px;
+}
+#section_single_post_slider section.sezione_galleria .slick-slide a {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background-color: #eaeaea;
+}
+#section_single_post_slider section.sezione_galleria .slick-slide a img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  max-width: none;
+  width: 100%;
+  height: 100%;
+}
+#section_single_post_slider section.sezione_galleria .slick-arrow {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  top: auto;
+  transform: none;
+  left: auto;
+  padding: 15px;
+  background-color: #C73333;
+  color: #fff;
+}
+#section_single_post_slider section.sezione_galleria .slick-arrow.fa-chevron-left {
+  right: 100px;
+  z-index: 9;
+  cursor: pointer;
+}
+#section_single_post_slider section.sezione_galleria .slick-arrow.fa-chevron-left::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -80px;
+  height: 56px;
+  width: 80px;
+  display: block;
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/slider-deco.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top right;
+}
+#section_single_post_slider section.sezione_galleria .slick-arrow.fa-chevron-right {
+  cursor: pointer;
+}
+#section_single_post_slider section.sezione_galleria .slider__counter1,
+#section_single_post_slider section.sezione_galleria .slider__counter2,
+#section_single_post_slider section.sezione_galleria .slider__counter3,
+#section_single_post_slider section.sezione_galleria .slider__counter4,
+#section_single_post_slider section.sezione_galleria .slider__counter5 {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  right: 40px;
+  padding: 15px;
+  background-color: #C73333;
+  color: #fff;
+  font-family: "Krona One", sans-serif;
+}
+
+#section_content .prodotti_cat_box {
+  margin-bottom: 0;
+}
+#section_content .desc.prod {
+  margin-bottom: 45px;
+}
+#section_content .modelli_auto_box ul li::marker {
+  color: #C73333;
+}
+#section_content h3 {
+  margin-top: 45px;
+  font-size: 15px;
+  line-height: 1;
+  color: #C73333;
+}
+#section_content h3.cod_custom {
+  margin-top: 0;
+  font-size: 12px;
+  color: #6a6a6a;
+}
+#section_content h3.prodotto_cat {
+  color: #C73333;
+}
+#section_content h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 42px;
+  line-height: 1.1;
+}
+#section_content .anno, #section_content .prezzo {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  color: #6a6a6a;
+  line-height: 1.5;
+}
+#section_content .row_col_wrap_12 {
+  padding: 0 8%;
+  margin-left: 0;
+  margin-right: 0;
+}
+#section_content .row_col_wrap_12 .vc_col-sm-12 {
+  padding: 0;
+}
+#section_content section.menu {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+#section_content section.menu h5 {
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  border: 1px solid #222222;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+  transition: all 300ms;
+}
+#section_content section.menu h5:hover {
+  color: #fff;
+  border: 1px solid #C73333;
+  background-color: #C73333;
+}
+#section_content section.desc .flex_custom {
+  display: flex;
+  margin: 0 -5vw;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  border-top: 1px solid #cccccc;
+  border-bottom: 1px solid #cccccc;
+}
+#section_content section.desc .flex_custom .box_1,
+#section_content section.desc .flex_custom .box_2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+#section_content section.desc .flex_custom .box_1 h5, #section_content section.desc .flex_custom .box_1 h6,
+#section_content section.desc .flex_custom .box_2 h5,
+#section_content section.desc .flex_custom .box_2 h6 {
+  margin-bottom: 0;
+}
+#section_content section.desc .flex_custom .box_1 {
+  width: 60%;
+  padding: 20px 0 20px 5vw;
+  border-right: 1px solid #cccccc;
+}
+#section_content section.desc .flex_custom .box_2 {
+  width: 40%;
+  padding: 20px 0 20px 5vw;
+}
+#section_content section.desc .flex_custom .box_2 h6:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+#section_content section.desc .ulteriori_info {
+  margin: 100px 0;
+}
+#section_content section.desc .ulteriori_info h4 {
+  margin: 0 auto;
+}
+#section_content section.desc .ulteriori_info a {
+  color: #222222;
+  padding: 10px 20px;
+  border: 1px solid #222222;
+  cursor: pointer;
+  margin: 40px auto 0 auto;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#section_content section.desc .ulteriori_info a:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+#section_content h4.separatore {
+  margin-bottom: 0;
+  padding: 40px 0;
+  border-top: 1px solid #cccccc;
+  margin-left: -5vw;
+  margin-right: -5vw;
+  text-align: center;
+}
+#section_content .box_image {
+  display: flex;
+  padding-bottom: 60px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#section_content .box_image .image {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+#section_content .box_image .image img {
+  height: 250px;
+  width: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.sezione_galleria.sg1, .sezione_galleria.sg2, .sezione_galleria.sg3, .sezione_galleria.sg4, .sezione_galleria.sg5 {
+  opacity: 0;
+  position: absolute;
+  z-index: 8;
+  top: 0 !important;
+  left: 0 !important;
+  bottom: auto !important;
+  right: auto !important;
+  transition: all 1s;
+}
+.sezione_galleria.sg1.active, .sezione_galleria.sg2.active, .sezione_galleria.sg3.active, .sezione_galleria.sg4.active, .sezione_galleria.sg5.active {
+  opacity: 1;
+  z-index: 9;
+}
+
+section.menu h5.btn1.active {
+  color: #fff;
+  border: 1px solid #C73333;
+  background-color: #C73333;
+}
+section.menu h5.btn2.active {
+  color: #fff;
+  border: 1px solid #C73333;
+  background-color: #C73333;
+}
+section.menu h5.btn3.active {
+  color: #fff;
+  border: 1px solid #C73333;
+  background-color: #C73333;
+}
+section.menu h5.btn4.active {
+  color: #fff;
+  border: 1px solid #C73333;
+  background-color: #C73333;
+}
+section.menu h5.btn5.active {
+  color: #fff;
+  border: 1px solid #C73333;
+  background-color: #C73333;
+}
+
+section.desc.des1 {
+  display: none;
+}
+section.desc.des1.active {
+  display: block;
+}
+section.desc.des2 {
+  display: none;
+}
+section.desc.des2.active {
+  display: block;
+}
+section.desc.des3 {
+  display: none;
+}
+section.desc.des3.active {
+  display: block;
+}
+section.desc.des4 {
+  display: none;
+}
+section.desc.des4.active {
+  display: block;
+}
+section.desc.des5 {
+  display: none;
+}
+section.desc.des5.active {
+  display: block;
+}
+
+#section_titolo_archivio_prodotti .row-bg-overlay {
+  opacity: 1 !important;
+}
+#section_titolo_archivio_prodotti .row-bg-overlay::after {
+  content: "";
+  display: block;
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/prodotti_speciali_deco.png);
+  height: calc(100% + 81px);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  width: 19vw;
+  position: absolute;
+  top: -81px;
+  right: 0;
+}
+#section_titolo_archivio_prodotti.guida_autonoma_head .row-bg-overlay::after {
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/guida_autonoma_deco.png);
+}
+#section_titolo_archivio_prodotti.trasporto_carozzina_head .row-bg-overlay::after {
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/08/trasporto_carrozzina_deco.png);
+}
+
+.box_categoria {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+.box_categoria h2 {
+  margin-top: 40px;
+}
+.box_categoria .nectar-split-heading::before {
+  content: "";
+  display: block;
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/decor_sx.svg);
+  height: 10px;
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+.box_categoria .wpb_raw_code .wpb_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box_categoria .wpb_raw_code .wpb_wrapper .item_custom {
+  display: block;
+  background-color: #f6f6f6;
+  width: 31%;
+  margin: 1%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  box-shadow: 3px 3px 40px rgba(42, 20, 20, 0.15);
+  overflow: hidden;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: all 300ms;
+}
+.box_categoria .wpb_raw_code .wpb_wrapper .item_custom .img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  transform: scale(1);
+  transform-origin: center bottom;
+  transition: all 300ms;
+}
+.box_categoria .wpb_raw_code .wpb_wrapper .item_custom .prodotto_cat,
+.box_categoria .wpb_raw_code .wpb_wrapper .item_custom .cod_custom {
+  font-size: 9px;
+  line-height: 1;
+  margin-bottom: 0;
+  opacity: 0.75;
+}
+.box_categoria .wpb_raw_code .wpb_wrapper .item_custom .prodotto_cat {
+  margin-bottom: 30px;
+  color: #C73333;
+  font-size: 12px;
+}
+.box_categoria .wpb_raw_code .wpb_wrapper .item_custom .titolo {
+  font-size: 18px;
+  padding: 6% 4% 0 4%;
+  margin-bottom: 0;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+.box_categoria .wpb_raw_code .wpb_wrapper .item_custom .flex_custom {
+  padding: 0 4% 6% 4%;
+}
+.box_categoria .wpb_raw_code .wpb_wrapper .item_custom:hover {
+  opacity: 0.75;
+  transform: scale(1.05);
+}
+.box_categoria .wpb_raw_code .wpb_wrapper .item_custom:hover .img {
+  transform: scale(1.05);
+}
+
+/*#menu_hook {
+  position: fixed;
+  top:50%;
+  left: -160px;
+  z-index:99;
+
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+  &:hover {
+    left: 0px;
+  }
+  .wpb_wrapper {
+    a {
+      display: block;
+      text-align: right;
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        height: 36px;
+        width: 36px;
+        background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/dec_menu_hook.svg);
+        background-repeat: no-repeat;
+        background-position: top left;
+        -webkit-background-size: contain;
+        background-size: contain;
+        top: 0;
+        right: -36px;
+      }
+      span {
+        white-space: nowrap;
+      }
+    }
+  }
+}
+.page-id-15 #menu_hook {
+  left: -260px;
+  &:hover {
+    left: 0px;
+  }
+} */
+#menu_hook {
+  padding-top: 2% !important;
+}
+#menu_hook .wpb_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+#menu_hook .wpb_wrapper a {
+  background-color: #EAE8E8 !important;
+  color: #222;
+}
+#menu_hook .wpb_wrapper a span {
+  color: #222;
+}
+
+#section_archive_main .box_filtri {
+  overflow: hidden;
+  transition: all 300ms;
+}
+#section_archive_main .box_filtri form {
+  padding: 8%;
+  background: #f4f4f4;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+#section_archive_main .box_filtri form ul {
+  margin-left: 0 !important;
+}
+#section_archive_main .box_filtri form ul li {
+  padding: 0 !important;
+}
+#section_archive_main .box_filtri form ul li h4 {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+  padding-top: 15px !important;
+  font-size: 12px;
+}
+#section_archive_main .box_filtri form ul select {
+  background-color: rgba(0, 0, 0, 0.0392156863);
+}
+#section_archive_main .box_filtri form .sf-field-reset {
+  padding-top: 10px !important;
+  margin-top: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+#section_archive_main .box_filtri form::after {
+  content: "";
+  display: block;
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/decor_sx.svg);
+  height: 10px;
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+#section_archive_main .box_filtri .searchandfilter .noUi-connect {
+  background-color: rgba(199, 51, 51, 0.6705882353);
+}
+#section_archive_main .box_filtri.close {
+  height: 0 !important;
+  transition: all 300ms;
+}
+#section_archive_main .box_risultati .trasporti_main_box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti {
+  height: -moz-fit-content;
+  height: fit-content;
+  display: block;
+  background-color: #f6f6f6;
+  width: 48%;
+  margin: 0 1% 0 1%;
+  margin-bottom: 30px !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  box-shadow: 3px 3px 40px rgba(42, 20, 20, 0.15);
+  overflow: hidden;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: all 300ms;
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti .img {
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transform-origin: center bottom;
+  transition: all 300ms;
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti .prodotto_cat,
+#section_archive_main .box_risultati .trasporti_main_box .trasporti .cod_custom {
+  font-size: 9px;
+  line-height: 1;
+  margin-bottom: 0;
+  opacity: 0.75;
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti .prodotto_cat {
+  margin-bottom: 0;
+  color: #666666;
+  font-size: 10px;
+  line-height: 1.75;
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti .titolo {
+  font-size: 16px;
+  padding: 6% 4% 6% 4%;
+  margin-bottom: 0;
+  color: #C73333;
+  line-height: 1.25;
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti .allestimenti_custom {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 4%;
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti .allestimenti_custom h5 {
+  margin-bottom: 5px;
+  color: #666666;
+  font-size: 10px;
+  line-height: 1.25;
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti .allestimenti_custom h4 {
+  color: #111111;
+  font-size: 14px;
+  margin: 0;
+  line-height: 2;
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti .flex_custom {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 4%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti .flex_custom span {
+  color: #666666;
+  font-size: 10px;
+  line-height: 1.25;
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti .flex_custom div {
+  width: 50%;
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti .flex_custom div h4 {
+  color: #111111;
+  font-size: 14px;
+  margin: 0;
+  line-height: 2;
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti:hover {
+  opacity: 0.75;
+  transform: scale(1.05);
+}
+#section_archive_main .box_risultati .trasporti_main_box .trasporti:hover .img {
+  transform: scale(1.05);
+}
+
+.page-id-17 #section_contattaci,
+.page-id-15 #section_contattaci {
+  margin-top: 80px !important;
+}
+
+.page-id-13 #breadcrumbs,
+.page-id-15 #breadcrumbs,
+.page-id-17 #breadcrumbs,
+.page-id-23 #breadcrumbs {
+  display: none;
+}
+
+.open-close-filtri {
+  color: #C73333;
+  cursor: pointer;
+  text-align: center;
+}
+
+.page-id-23 article {
+  position: relative;
+}
+.page-id-23 article::after {
+  content: "";
+  display: block;
+  background-image: url(https://offdevelop.it/internazionale/wp-content/uploads/2022/07/decor_sx.svg);
+  height: 10px;
+  width: 100%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+}
+.page-id-23 article .inner-wrap {
+  border-radius: 0 !important;
+}
+.page-id-23 .wp-block-group__inner-container h2 {
+  font-size: 20px;
+  color: #C73333;
+}
+
+.single-format-standard.single.single-post #breadcrumbs, .single-format-standard.single.single-post #author-bio {
+  display: none;
+}
+.single-format-standard.single.single-post #single-below-header .meta-author, .single-format-standard.single.single-post #single-below-header .meta-comment-count {
+  display: none !important;
+}
+.single-format-standard.single.single-post #single-below-header .meta-date {
+  border-left: 0 !important;
+}
+.single-format-standard.single.single-post .return_btns {
+  text-align: center;
+  display: block;
+  background-color: #f4f4f4;
+  padding: 10px;
+}
+.single-format-standard.single.single-post .return_btns a {
+  margin: 20px;
+  font-weight: 800;
+  letter-spacing: 2px;
+}
+
+body.archive.category .section-title {
+  background-image: url("https://offdevelop.it/internazionale/wp-content/uploads/2022/07/slider-deco.svg");
+  background-position: right bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-top: 36px;
+  padding-left: 36px;
+  background-color: #f4f4f4;
+  border-bottom: 0;
+}
+body.archive.category .section-title .subheader {
+  display: none;
+}
+body.archive.category .section-title h1 {
+  text-transform: uppercase;
+  color: #C73333;
+}
+
+.post-template-default.single.single-post #page-header-wrap h1.entry-title {
+  line-height: 1.25;
+}
+
+h2.line_custom {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+h2.line_custom::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #C73333;
+  margin-left: 25px;
+}
+
+#section_descrizione_extra {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#section_video {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#section_video .wpb_raw_code .wpb_wrapper .flex_custom {
+  display: flex;
+  justify-content: center;
+}
+#section_video iframe {
+  width: 48% !important;
+  height: 320px !important;
+  margin: 2%;
+}
+
+#section_buttons {
+  margin-top: 150px;
+  margin-bottom: 180px;
+}
+#section_buttons .wpb_raw_code .wpb_wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+#section_elenco_prodotti {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#section_elenco_prodotti h2.line_custom {
+  margin-bottom: 60px;
+}
+#section_elenco_prodotti .trasporti_main_box {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti {
+  height: -moz-fit-content;
+  height: fit-content;
+  display: block;
+  background-color: #f6f6f6;
+  width: 48%;
+  margin: 0 1% 0 1%;
+  margin-bottom: 30px !important;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  box-shadow: 3px 3px 40px rgba(42, 20, 20, 0.15);
+  overflow: hidden;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: all 300ms;
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti .img {
+  height: 200px;
+  background-size: cover;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transform-origin: center bottom;
+  transition: all 300ms;
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti .prodotto_cat,
+#section_elenco_prodotti .trasporti_main_box .trasporti .cod_custom {
+  font-size: 9px;
+  line-height: 1;
+  margin-bottom: 0;
+  opacity: 0.75;
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti .prodotto_cat {
+  margin-bottom: 0;
+  color: #666666;
+  font-size: 10px;
+  line-height: 1.75;
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti .titolo {
+  font-size: 16px;
+  padding: 6% 4% 6% 4%;
+  margin-bottom: 0;
+  color: #C73333;
+  line-height: 1.25;
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti .allestimenti_custom {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 4%;
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti .allestimenti_custom h5 {
+  margin-bottom: 5px;
+  color: #666666;
+  font-size: 10px;
+  line-height: 1.25;
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti .allestimenti_custom h4 {
+  color: #111111;
+  font-size: 14px;
+  margin: 0;
+  line-height: 2;
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti .flex_custom {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 4%;
+  display: flex;
+  flex-wrap: wrap;
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti .flex_custom span {
+  color: #666666;
+  font-size: 10px;
+  line-height: 1.25;
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti .flex_custom div {
+  width: 50%;
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti .flex_custom div h4 {
+  color: #111111;
+  font-size: 14px;
+  margin: 0;
+  line-height: 2;
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti:hover {
+  opacity: 0.75;
+  transform: scale(1.05);
+}
+#section_elenco_prodotti .trasporti_main_box .trasporti:hover .img {
+  transform: scale(1.05);
+}
+
+#section_elenco_prodotti2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#section_elenco_prodotti2 h2.line_custom {
+  margin-bottom: 60px;
+}
+#section_elenco_prodotti2 .flex_custom {
+  display: flex;
+  flex-wrap: wrap;
+}
+#section_elenco_prodotti2 .item_custom {
+  display: block;
+  background-color: #f6f6f6;
+  width: 31%;
+  margin: 1%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  box-shadow: 3px 3px 40px rgba(42, 20, 20, 0.15);
+  overflow: hidden;
+  transform: scale(1);
+  transform-origin: center center;
+  transition: all 300ms;
+}
+#section_elenco_prodotti2 .item_custom .img {
+  height: 200px;
+  background-size: cover;
+  transform: scale(1);
+  transform-origin: center bottom;
+  transition: all 300ms;
+}
+#section_elenco_prodotti2 .item_custom .prodotto_cat,
+#section_elenco_prodotti2 .item_custom .cod_custom {
+  font-size: 9px;
+  line-height: 1;
+  margin-bottom: 0;
+  opacity: 0.75;
+}
+#section_elenco_prodotti2 .item_custom .prodotto_cat {
+  margin-top: 10px;
+  color: #C73333;
+  font-size: 12px;
+}
+#section_elenco_prodotti2 .item_custom .titolo {
+  font-size: 18px;
+  padding: 6% 4% 0 4%;
+  margin-bottom: 0;
+}
+#section_elenco_prodotti2 .item_custom .flex_custom {
+  padding: 0 4% 6% 4%;
+}
+#section_elenco_prodotti2 .item_custom:hover {
+  opacity: 0.75;
+  transform: scale(1.05);
+}
+#section_elenco_prodotti2 .item_custom:hover .img {
+  transform: scale(1.05);
+}
+
+#section_image_grid .flex_custom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+#section_image_grid .flex_custom a {
+  max-height: 300px;
+  max-width: 350px;
+  margin: 20px;
+  overflow: hidden;
+}
+#section_image_grid .flex_custom a img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  -o-object-position: center;
+     object-position: center;
+  height: 100%;
+  width: 100%;
+}
+
+body.page-id-21 .info i {
+  font-size: 16px;
+  color: #ffffff;
+  margin-right: 10px;
+}
+body.page-id-21 .info p {
+  padding-bottom: 10px !important;
+}
+body.page-id-21 .info p:first-child {
+  font-weight: 700;
+  padding-bottom: 30px !important;
+}
+body.page-id-21 .info h4 {
+  letter-spacing: 2px;
+  color: #C73333;
+}
+
+a.toggle-heading {
+  line-height: 1.5 !important;
+}
+
+.interactive_map_ctrl .wpb_wrapper {
+  height: 100%;
+}
+.interactive_map_ctrl .wpb_wrapper .nectar-leaflet-map {
+  height: 100% !important;
+}
+
+.btn_sceheda_tecnica {
+  padding: 10px 25px;
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: #C73333;
+  color: #fff;
+  transform: skewX(-5deg);
+  margin-bottom: 60px;
+}
+
+header#top {
+  position: relative;
+}
+header#top::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+header#top.free::after {
+  content: none;
+}
+
+.mobile-only .menu-item-has-children .menu-item-has-children {
+  padding: 15px !important;
+  background: rgba(255, 255, 255, 0.0901960784) !important;
+}
+
+@media (max-width: 690px) {
+  body.home h1 {
+    font-size: 1.5em !important;
+  }
+}
+@media (min-width: 691px) and (max-width: 999px) {
+  body.home h1 {
+    font-size: 1.9em !important;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+  body.home h1 {
+    font-size: 2.4em !important;
+  }
+}
+@media (min-width: 1301px) {
+  body.home h1 {
+    font-size: 2.4em !important;
+  }
+}
+@media (max-width: 690px) {
+  .wpcf7-not-valid-tip {
+    font-size: 12px !important;
+  }
+  #section_single_post_slider .vc_col-sm-9 {
+    min-height: 320px !important;
+  }
+  .container {
+    max-width: 90%;
+    padding: 0;
+    margin: 0 auto;
+  }
+  body h1 {
+    font-size: 24px;
+    line-height: 1;
+  }
+  a.btn_custom {
+    left: 49.55vw;
+    font-size: 16px;
+    white-space: nowrap;
+    bottom: 3vh;
+  }
+  #slide-out-widget-area .right-side {
+    display: none !important;
+  }
+  #slide-out-widget-area .left-side {
+    width: 100% !important;
+    padding-right: 0 !important;
+  }
+  h2.line_custom.text_wrap {
+    white-space: normal;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  #section_single_post_slider .vc_col-sm-9 {
+    min-height: auto;
+  }
+  #header-outer {
+    height: 104px;
+    display: flex;
+    align-items: center;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu a.btn_custom {
+    font-size: 16px;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li {
+    width: 15%;
+    min-width: 15%;
+    max-width: 15%;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li a {
+    font-size: 9px;
+  }
+  #header-outer nav ul.sf-menu li a {
+    font-size: 10px;
+  }
+  #header-outer #top .col.col_last.span_9 {
+    margin-left: 0;
+  }
+  li.megamenu > .sub-menu > li ul,
+  li.megamenu > ul {
+    max-height: -moz-fit-content !important;
+    max-height: fit-content !important;
+    margin-bottom: 25px !important;
+  }
+  li.megamenu > ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li.megamenu > ul > li {
+    width: 47%;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    margin-right: 3% !important;
+    margin-left: 0 !important;
+  }
+  li.megamenu > ul > li > a:first-child {
+    height: 65px;
+    align-items: center;
+    display: flex !important;
+  }
+  li.megamenu > ul > li > a:first-child > ul.submenu {
+    margin-left: 0 !important;
+  }
+  li.megamenu.menu-item-28 > ul > li > a:first-child {
+    height: 40px;
+    align-items: center;
+    padding: 4px 6px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 8px;
+    color: #000 !important;
+  }
+  li.megamenu.menu-item-30 > ul > li > a:first-child {
+    height: 40px;
+    align-items: center;
+    padding: 4px 6px;
+    border-bottom: 1px solid #000;
+    margin-bottom: 8px;
+    color: #000 !important;
+  }
+  li.megamenu > a {
+    margin-bottom: 30px !important;
+  }
+  body[data-bg-header=true] #header-outer[data-permanent-transparent="1"].transparent.scrolled-down {
+    background-color: #fff !important;
+  }
+  body[data-bg-header=true] #header-outer[data-permanent-transparent="1"].transparent.scrolled-down.side-widget-open {
+    background-color: transparent !important;
+  }
+  body.material #slide-out-widget-area[class*=slide-out-from-right] .off-canvas-menu-container li a:after,
+  #slide-out-widget-area.fullscreen-split .inner .off-canvas-menu-container li a:after,
+  #slide-out-widget-area .tagcloud a:hover {
+    border-color: transparent;
+  }
+  #slide-out-widget-area.fullscreen-split .off-canvas-menu-container li ul.sub-menu {
+    margin-left: 0;
+  }
+  #slide-out-widget-area[data-dropdown-func].fullscreen-split .inner .off-canvas-menu-container li li a {
+    font-size: 12px !important;
+    line-height: 12px !important;
+  }
+  #section_blog_evidenza {
+    margin-top: 150px !important;
+  }
+  #section_blog_evidenza .wpb_wrapper > div:first-child {
+    padding: 20px 95px 20px 0;
+    top: -150px;
+  }
+  #section_blog_evidenza .wpb_wrapper > div:first-child::after {
+    height: 108px;
+  }
+  #section_blog_evidenza .blog-recent .post > a::after {
+    top: 226px;
+  }
+  #section_cta_about a.btn_standard {
+    margin: 40px auto 0 auto !important;
+  }
+  #section_hero .row-bg-overlay::after {
+    bottom: 0;
+    width: 61vw;
+  }
+  #section_boxes .col_decoration .column-image-bg {
+    height: 55%;
+  }
+  #section_boxes .col_decoration .vc_column-inner > .wpb_wrapper {
+    padding: 30px 0 45px 30px;
+  }
+  #section_boxes .col_decoration.destra .vc_column-inner > .wpb_wrapper {
+    padding: 50px 50px 65px 0;
+  }
+  #footer-outer #copyright .col.span_5 {
+    display: block;
+    text-align: center;
+    margin-bottom: 0;
+  }
+  #footer-outer #copyright .col.span_5 div {
+    margin-top: 15px;
+  }
+  #section_single_post_slider .vc_col-sm-3 .column-image-bg-wrap .column-image-bg {
+    height: 100%;
+  }
+  #section_single_post_slider .row_col_wrap_12 {
+    margin-left: 0;
+  }
+  #section_single_post_slider .row_col_wrap_12 .vc_col-sm-3 {
+    display: none;
+  }
+  #section_single_post_slider section.sezione_galleria .slick-arrow.fa-chevron-left {
+    right: 100px !important;
+    z-index: 9;
+    cursor: pointer;
+  }
+  #section_single_post_slider {
+    height: 320px;
+  }
+  #section_single_post_slider section.sezione_galleria.prod {
+    height: 320px;
+    width: auto;
+  }
+  #section_single_post_slider section.sezione_galleria.prod .slider_galleria {
+    height: 320px;
+  }
+  #section_single_post_slider section.sezione_galleria.prod .slick-slide {
+    height: 320px;
+  }
+  #section_single_post_slider section.sezione_galleria.prod .slick-slide a {
+    height: 320px;
+  }
+  #section_single_post_slider section.sezione_galleria:not(.prod) {
+    height: 320px;
+    width: 100%;
+  }
+  #section_single_post_slider section.sezione_galleria:not(.prod) .slider_galleria {
+    height: 320px;
+  }
+  #section_single_post_slider section.sezione_galleria:not(.prod) .slick-slide {
+    height: 320px;
+  }
+  #section_single_post_slider section.sezione_galleria:not(.prod) .slick-slide a {
+    height: 320px;
+  }
+  #section_single_post_slider a.btn_standard.nectar-button.large.regular.accent-color.regular-button {
+    font-size: 12px;
+  }
+  #section_content h1 {
+    font-size: 15px;
+  }
+  #section_content .anno, #section_content .prezzo {
+    font-size: 12px;
+  }
+  #section_content .box_image {
+    flex-wrap: wrap;
+  }
+  #section_content .box_image .image {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  #section_content .box_image .image img {
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  section.desc h6, section.desc h5 {
+    font-size: 12px !important;
+    letter-spacing: 0;
+    line-height: 1.5 !important;
+  }
+  section.desc .flex_custom {
+    flex-direction: column;
+  }
+  section.desc .flex_custom .box_1 {
+    width: 100% !important;
+    border-bottom: 1px solid #cccccc;
+    border-right: 0 !important;
+  }
+  section.desc .flex_custom .box_2 {
+    width: 100% !important;
+  }
+  .box_categoria .wpb_raw_code .wpb_wrapper .item_custom {
+    width: 100%;
+  }
+  .box_categoria h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .box_categoria .nectar-split-heading::before {
+    top: 20px;
+  }
+  #section_titolo_archivio_prodotti {
+    margin-bottom: 40px;
+  }
+  #section_titolo_archivio_prodotti .row_col_wrap_12.col.span_12 {
+    padding-right: 75px;
+  }
+  .box_categoria .nectar-split-heading::before {
+    background-size: auto 65%;
+    top: 25px;
+    left: 10px;
+  }
+  .box_categoria .nectar-split-heading::before .box_categoria h2 {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  #section_archive_main .box_risultati .trasporti_main_box .trasporti {
+    width: 100%;
+  }
+  #section_archive_main .box_filtri form {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #section_archive_main .box_filtri form ul li label {
+    width: 100%;
+  }
+  #section_archive_main .box_filtri form div[data-sf-field-name=_sfm_anno] label,
+  #section_archive_main .box_filtri form div[data-sf-field-name=_sfm_prezzo] label {
+    width: auto;
+  }
+  #section_elenco_prodotti .trasporti_main_box .trasporti {
+    width: 100%;
+  }
+  .post-template-default.single.single-post #page-header-wrap h1.entry-title {
+    font-size: 25px;
+  }
+  #section_video .wpb_raw_code .wpb_wrapper .flex_custom {
+    flex-wrap: wrap;
+  }
+  #section_video .wpb_raw_code .wpb_wrapper .flex_custom iframe {
+    width: 100% !important;
+  }
+  #section_buttons .wpb_raw_code .wpb_wrapper {
+    flex-wrap: wrap;
+  }
+  #section_buttons .wpb_raw_code .wpb_wrapper a.btn_standard {
+    margin-bottom: 100px !important;
+  }
+  #section_buttons .wpb_raw_code .wpb_wrapper a.btn_standard:last-of-type {
+    margin-bottom: 0 !important;
+  }
+  #section_elenco_prodotti2 .item_custom {
+    width: 100%;
+  }
+  body.page-id-507 .first-section .row_col_wrap_12 {
+    flex-direction: column-reverse;
+  }
+  body.page-id-507 .first-section .row_col_wrap_12 div.nectar-leaflet-map {
+    height: 500px !important;
+  }
+}
+@media (min-width: 691px) and (max-width: 999px) {
+  #section_single_post_slider .vc_col-sm-9 {
+    min-height: 320px !important;
+  }
+  .container {
+    max-width: 690px;
+    width: 690px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  body h1 {
+    font-size: 35px;
+    line-height: 1;
+  }
+  a.btn_custom {
+    left: 70.55vw;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+  #slide-out-widget-area .right-side {
+    display: none !important;
+  }
+  #slide-out-widget-area .left-side {
+    width: 100% !important;
+    padding-right: 0 !important;
+  }
+  #section_single_post_slider .vc_col-sm-9 {
+    min-height: auto;
+  }
+  #header-outer {
+    height: 104px;
+    display: flex;
+    align-items: center;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu a.btn_custom {
+    font-size: 16px;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li {
+    width: 15%;
+    min-width: 15%;
+    max-width: 15%;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li a {
+    font-size: 9px;
+  }
+  #header-outer nav ul.sf-menu li a {
+    font-size: 10px;
+  }
+  #header-outer #top .col.col_last.span_9 {
+    margin-left: 0;
+  }
+  li.megamenu > .sub-menu > li ul,
+  li.megamenu > ul {
+    max-height: -moz-fit-content !important;
+    max-height: fit-content !important;
+    margin-bottom: 25px !important;
+  }
+  li.megamenu > ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  li.megamenu > ul > li {
+    width: 30%;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+    margin-right: 3% !important;
+    margin-left: 0 !important;
+  }
+  li.megamenu > ul > li > a:first-child {
+    height: 65px;
+    align-items: center;
+    display: flex !important;
+  }
+  li.megamenu > ul > li > a:first-child > ul.submenu {
+    margin-left: 0 !important;
+  }
+  li.megamenu > a {
+    margin-bottom: 30px !important;
+  }
+  body[data-bg-header=true] #header-outer[data-permanent-transparent="1"].transparent.scrolled-down {
+    background-color: #fff !important;
+  }
+  body[data-bg-header=true] #header-outer[data-permanent-transparent="1"].transparent.scrolled-down.side-widget-open {
+    background-color: transparent !important;
+  }
+  body.material #slide-out-widget-area[class*=slide-out-from-right] .off-canvas-menu-container li a:after,
+  #slide-out-widget-area.fullscreen-split .inner .off-canvas-menu-container li a:after,
+  #slide-out-widget-area .tagcloud a:hover {
+    border-color: transparent;
+  }
+  #slide-out-widget-area.fullscreen-split .off-canvas-menu-container li ul.sub-menu {
+    margin-left: 0;
+  }
+  #section_blog_evidenza .blog-recent .post > a::after {
+    top: 402.5px;
+  }
+  #section_cta_about a.btn_standard {
+    margin: 40px auto 0 auto !important;
+  }
+  #section_single_post_slider .vc_col-sm-3 .column-image-bg-wrap .column-image-bg {
+    height: 100%;
+  }
+  #section_single_post_slider .row_col_wrap_12 {
+    margin-left: 0;
+  }
+  #section_single_post_slider .row_col_wrap_12 .vc_col-sm-3 {
+    display: none;
+  }
+  #section_single_post_slider .vc_col-sm-9 {
+    min-height: 420px;
+  }
+  #section_single_post_slider .vc_col-sm-3 {
+    min-height: 420px;
+  }
+  #section_single_post_slider section.sezione_galleria {
+    width: 690px;
+  }
+  #section_single_post_slider section.sezione_galleria .slick-slide {
+    height: 420px;
+    width: 690px !important;
+  }
+  #section_single_post_slider section.sezione_galleria .slick-slide a {
+    height: 420px;
+    width: 690px !important;
+  }
+  #section_single_post_slider a.btn_standard.nectar-button.large.regular.accent-color.regular-button {
+    font-size: 12px;
+  }
+  #section_content h1 {
+    font-size: 28px;
+  }
+  section.desc h6, section.desc h5 {
+    font-size: 12px !important;
+    letter-spacing: 0;
+    line-height: 1.5 !important;
+  }
+  #menu_hook {
+    top: 25%;
+    left: -175px;
+  }
+  .box_categoria .wpb_raw_code .wpb_wrapper .item_custom {
+    width: 48%;
+  }
+  .box_categoria h2 {
+    font-size: 20px;
+    line-height: 45px;
+  }
+  .box_categoria .nectar-split-heading::before {
+    top: 30px;
+    left: 20px;
+  }
+  #section_archive_main .row_col_wrap_12.col.span_12 {
+    flex-wrap: nowrap !important;
+  }
+  #section_archive_main .row_col_wrap_12.col.span_12 .vc_col-sm-4 {
+    width: 33.33333333% !important;
+  }
+  #section_archive_main .row_col_wrap_12.col.span_12 .vc_col-sm-8 {
+    width: 66.66666667% !important;
+  }
+  #section_archive_main .box_risultati .trasporti_main_box .trasporti {
+    width: 100%;
+  }
+  #section_elenco_prodotti .trasporti_main_box .trasporti {
+    width: 100%;
+  }
+  #section_video .wpb_raw_code .wpb_wrapper .flex_custom {
+    flex-wrap: wrap;
+  }
+  #section_video .wpb_raw_code .wpb_wrapper .flex_custom iframe {
+    width: 100% !important;
+  }
+  #section_elenco_prodotti2 .item_custom {
+    width: 48%;
+  }
+  body.page-id-507 .first-section .row_col_wrap_12 {
+    flex-direction: column-reverse;
+  }
+  body.page-id-507 .first-section .row_col_wrap_12 div.nectar-leaflet-map {
+    height: 500px !important;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+  #header-outer #logo img,
+  #header-outer .logo-spacing img {
+    height: 30px;
+  }
+  #header-outer nav ul.sf-menu li.megamenu > ul.sub-menu > li ul.sub-menu li a span {
+    letter-spacing: 0 !important;
+  }
+  #header-outer nav ul.sf-menu li.megamenu > ul.sub-menu > li a {
+    font-size: 8px !important;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li > a:first-child {
+    height: 40px;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li > a:first-child img {
+    max-width: 65% !important;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-4#menu-item-28 > ul.sub-menu > li > a:first-child span {
+    font-size: 9px !important;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-4 > ul.sub-menu > li > a:first-child {
+    height: 40px;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-6#menu-item-30 > ul.sub-menu > li {
+    width: 25%;
+    min-width: 25%;
+    max-width: 25%;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-6#menu-item-30 > ul.sub-menu > li > a:first-child span {
+    font-size: 9px !important;
+  }
+  #header-outer #menu-item-393 {
+    width: 25%;
+    min-width: 25%;
+    max-width: 100%;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+  }
+  .container {
+    max-width: 990px;
+    width: 990px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  body h1 {
+    font-size: 35px;
+    line-height: 1;
+  }
+  a.btn_custom {
+    left: 74.55vw;
+    font-size: 16px;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu a.btn_custom {
+    font-size: 16px;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li {
+    width: 15%;
+    min-width: 15%;
+    max-width: 15%;
+  }
+  #header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li a {
+    font-size: 9px;
+  }
+  #header-outer nav ul.sf-menu li a {
+    font-size: 10px;
+  }
+  #header-outer #top .col.col_last.span_9 {
+    margin-left: 0;
+  }
+  #section_blog_evidenza .blog-recent .post > a::after {
+    top: 212.5px;
+  }
+  #section_single_post_slider .vc_col-sm-9 {
+    min-height: 475px;
+  }
+  #section_single_post_slider .vc_col-sm-3 {
+    min-height: 475px;
+  }
+  #section_single_post_slider section.sezione_galleria {
+    width: 747px;
+    height: 475px;
+  }
+  #section_single_post_slider section.sezione_galleria .sezione_galleria {
+    height: 475px;
+  }
+  #section_single_post_slider section.sezione_galleria .slick-slide {
+    height: 475px;
+    width: 747px !important;
+  }
+  #section_single_post_slider section.sezione_galleria .slick-slide a {
+    height: 475px;
+    width: 747px !important;
+  }
+  #section_single_post_slider a.btn_standard.nectar-button.large.regular.accent-color.regular-button {
+    font-size: 12px;
+  }
+  #section_single_post_slider .vc_col-sm-9 {
+    width: 74%;
+  }
+  #menu_hook {
+    top: 25%;
+  }
+}
+@media (min-width: 1301px) {
+  #section_single_post_slider section.sezione_galleria .slick-slide {
+    width: 940px !important;
+  }
+  #section_single_post_slider section.sezione_galleria .slick-slide a {
+    width: 940px !important;
+  }
+  #section_single_post_slider .vc_col-sm-9 {
+    width: 74%;
+  }
+}/*# sourceMappingURL=off_style.css.map */

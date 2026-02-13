@@ -1,0 +1,3373 @@
+//colori
+$r: #c73333;
+
+//settings
+p,
+li {}
+
+h1 {
+  font-size: 52px;
+  line-height: 1;
+}
+
+h6 {
+  font-size: 14px;
+  color: $r !important;
+  letter-spacing: 2px;
+}
+
+a {}
+
+img {
+  margin-bottom: 0 !important;
+}
+
+#breadcrumbs {
+  font-family: "Krona One", sans-serif !important;
+  font-size: 11px;
+  margin-bottom: 15px;
+}
+
+//componenti
+a.btn_custom {
+  font-family: "Krona One", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 2px;
+  position: absolute;
+  bottom: 14vh;
+  left: 74.43vw;
+  z-index: 3;
+
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+
+  &::after {
+    content: "";
+    display: block;
+    background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/btn_white.svg);
+    height: 12px;
+    width: 109%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: absolute;
+    top: -24px;
+    left: -10px;
+
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+  }
+
+  &:hover {
+    opacity: 0.5;
+
+    &::after {
+      left: 40px;
+    }
+  }
+
+  &.btn_mobile {
+    color: #ffffff;
+    position: static !important;
+    padding: 10px 0;
+    border-top: 1px solid #ffffff6e;
+    border-bottom: 1px solid #ffffff6e;
+    margin-top: -25px;
+
+    &::after {
+      content: none !important;
+    }
+  }
+}
+
+a.btn_standard.nectar-button.large.regular.accent-color.regular-button {
+  font-weight: 200 !important;
+  margin-bottom: 0;
+  padding: 0;
+  background-color: transparent !important;
+  color: #222222;
+  font-family: "Krona One", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+  z-index: 1;
+  text-transform: uppercase;
+  display: block;
+  width: fit-content;
+
+  margin-bottom: 0 !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  margin-top: 0 !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+
+  &::after {
+    content: "";
+    display: block;
+    background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/decor_sx.svg);
+    height: 10px;
+    width: 100%;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    position: absolute;
+    top: 36px;
+    left: 0;
+
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -ms-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+  }
+
+  &:hover {
+    opacity: 0.5;
+
+    &::after {
+      left: 40px;
+    }
+  }
+}
+
+//header
+#slide-out-widget-area[data-dropdown-func].fullscreen-split .inner-wrap>.inner .off-canvas-menu-container li li a {
+  img[alt="HYUNDAI"] {
+    height: 65px;
+  }
+}
+
+#header-outer {
+  nav {
+    ul.sf-menu {
+      li {
+        text-transform: uppercase;
+
+        &.megamenu.columns-6 {
+          &>ul.sub-menu {
+            //flex-wrap: wrap;
+            //display: flex;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 65px 65px 65px 65px;
+            gap: 20px;
+
+            overflow: visible !important;
+            height: calc(100vh - 164px);
+
+            &::after {
+              content: "";
+              display: block;
+              background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/decor-element.svg);
+              height: 100vh;
+              background-position: top left;
+              background-repeat: no-repeat;
+              background-size: auto 100%;
+              width: 30vw;
+              position: absolute;
+              top: -104px;
+              right: 0;
+            }
+
+            a.btn_custom {
+              color: #ffffff;
+              line-height: 26px !important;
+              left: calc(74.43vw - 3px);
+              bottom: 20.5vh;
+            }
+
+            &>li {
+              //width: 25%;
+              //min-width: 25%;
+              //max-width: 25%;
+              width: auto;
+              min-width: auto;
+              max-width: auto;
+
+              &>a:first-child {
+                height: 65px;
+                display: flex;
+                align-items: center;
+              }
+
+              a {
+                margin-left: 0;
+                margin-right: 0;
+                padding: 0;
+                line-height: 1.25;
+                margin-bottom: 10px;
+                font-size: 11px;
+                background-color: transparent !important;
+
+                img[alt="HYUNDAI"] {
+                  height: 65px;
+                }
+              }
+
+              ul.sub-menu {
+                li a span {
+                  font-family: "Montserrat", sans-serif !important;
+                  letter-spacing: 1px !important;
+                }
+              }
+            }
+          }
+        }
+
+        &.megamenu.columns-4 {
+          &>ul.sub-menu {
+            //flex-wrap: wrap;
+            //display: flex;
+
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 65px 65px 65px 65px;
+            gap: 20px;
+            overflow: visible !important;
+            height: calc(100vh - 164px);
+
+            &::after {
+              content: "";
+              display: block;
+              background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/decor-element.svg);
+              height: 100vh;
+              background-position: top left;
+              background-repeat: no-repeat;
+              background-size: auto 100%;
+              width: 30vw;
+              position: absolute;
+              top: -104px;
+              right: 0;
+            }
+
+            a.btn_custom {
+              color: #ffffff;
+              line-height: 26px !important;
+              left: calc(74.43vw - 3px);
+              bottom: 20.5vh;
+            }
+
+            &>li {
+              //width: 20%;
+              //min-width: 20%;
+              //max-width: 20%;
+              width: 100%;
+              min-width: 100%;
+              max-width: 100%;
+
+              &>a:first-child {
+                height: 65px;
+                display: flex;
+                align-items: center;
+              }
+
+              a {
+                margin-left: 0;
+                margin-right: 0;
+                padding: 0;
+                line-height: 1.25;
+                margin-bottom: 10px;
+                font-size: 11px;
+              }
+
+              ul.sub-menu {
+                li a span {
+                  font-family: "Montserrat", sans-serif !important;
+                  letter-spacing: 1px !important;
+                }
+              }
+            }
+          }
+        }
+
+        a {
+          margin-left: 20px;
+          margin-right: 20px;
+
+          span {}
+        }
+      }
+    }
+  }
+
+  nav ul.sf-menu li.megamenu.columns-4#menu-item-28>ul.sub-menu>li>a:first-child {
+    align-items: flex-start;
+
+    span {
+      display: block;
+      padding: 4px 6px;
+      font-size: 12px !important;
+      border-left: 2px solid $r;
+    }
+  }
+
+  nav ul.sf-menu li.megamenu.columns-6#menu-item-30>ul.sub-menu>li>a:first-child {
+    align-items: flex-start;
+
+    span {
+      display: block;
+      padding: 4px 6px;
+      font-size: 12px !important;
+      border-left: 2px solid $r;
+    }
+  }
+
+  #menu-item-393 {
+    /*  width: 100%;
+    min-width: 100%;
+    max-width: 100%;
+    height: fit-content !important; */
+    /* ul {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;C
+      li {
+        width: fit-content;
+        height: fit-content !important;
+        margin: 0 10px 10px 0;
+        padding: 10px 20px;
+        background-color: rgba(255, 255, 255, 0.06) !important;
+        a {
+          margin-bottom: 0 !important;
+        }
+        span {
+          display: block;
+          padding: 4px 6px;
+          font-size: 12px!important;
+          border-left: 2px solid $r;
+        }
+      }
+    } */
+  }
+}
+
+body[data-bg-header="true"] div#header-outer[data-permanent-transparent="1"].transparent {
+  background-color: #ffffff !important;
+}
+
+//footer
+#footer-outer {
+
+  .footer_col_1,
+  .footer_col_2,
+  .footer_col_3 {
+    img {
+      margin-bottom: 10px !important;
+    }
+
+    i {
+      font-size: 16px;
+      color: $r;
+      margin-right: 10px;
+    }
+
+    p {
+      padding-bottom: 10px !important;
+    }
+
+    p:first-child {
+      font-weight: 700;
+      padding-bottom: 30px !important;
+    }
+
+    h4 {
+      letter-spacing: 2px;
+      color: #c73333;
+    }
+  }
+
+  .footer_col_2,
+  .footer_col_3 {
+    a {
+      display: block;
+      padding-bottom: 10px;
+    }
+  }
+
+  .footer_col_3 {
+    img {
+      margin-bottom: 0 !important;
+      margin-top: 30px !important;
+      width: 100px;
+    }
+  }
+
+  .footer_col_1 {
+    img {
+      width: 70%;
+    }
+  }
+
+  .block-9,
+  .block-10,
+  .block-11 {
+    margin-bottom: 0 !important;
+  }
+
+  #copyright {
+    .col_last {
+      display: none;
+    }
+
+    .col.span_5 {
+      width: 100%;
+      margin-right: 0 !important;
+      display: flex;
+      justify-content: center;
+
+      p {
+        padding-bottom: 0;
+      }
+
+      div {
+        margin-left: 40px;
+        display: flex;
+        justify-content: center;
+
+        img {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+}
+
+//home
+#section_hero {
+  h1 {
+    max-width: 80%;
+  }
+
+  .row-bg-overlay {
+    background-color: transparent !important;
+
+    &::after {
+      content: "";
+      display: block;
+      background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/decor-element.svg);
+      height: 100vh;
+      background-position: top left;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      width: 30vw;
+      position: absolute;
+      top: 0;
+      right: 0;
+      z-index: 2;
+    }
+  }
+
+  .row-bg {
+    height: calc(100vh - 104px);
+    margin-top: 104px;
+  }
+
+  .row_col_wrap_12 {
+    pointer-events: none;
+  }
+}
+
+#section_boxes {
+  .col_decoration {
+    .column-image-bg {
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+
+    .vc_column-inner>.wpb_wrapper {
+      padding: 50px 0 65px 50px;
+      position: relative;
+
+      &::after {
+        content: url(https://autointernazionale.it/wp-content/uploads/2022/07/decor_sx.svg);
+        position: absolute;
+        top: 50%;
+        left: 0;
+      }
+
+      h3 {
+        font-size: 18px;
+        line-height: 1.3;
+        margin-top: 50px;
+      }
+
+      img {
+        margin-bottom: 50px !important;
+      }
+    }
+
+    &.destra {
+      .vc_column-inner>.wpb_wrapper {
+        padding: 50px 50px 65px 0;
+
+        &::after {
+          content: url(https://autointernazionale.it/wp-content/uploads/2022/07/decor_dx.svg);
+          right: 0;
+          left: auto;
+        }
+      }
+    }
+
+    &.allineamento_destra {
+      margin: 0 0 0 auto !important;
+    }
+
+    transform: scale(1);
+    transition: all 300ms;
+    background-color: #fff;
+
+    &:hover {
+      transform: scale(1.03);
+    }
+  }
+}
+
+#section_cta_about {
+  a.btn_standard {
+    margin: 0 auto !important;
+  }
+}
+
+#section_blog_evidenza {
+  .wpb_wrapper>div:first-child {
+    margin-bottom: 0;
+    background-image: url("https://autointernazionale.it/wp-content/uploads/2022/07/blog_sfondo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center right;
+    padding: 50px 125px 50px 0;
+    position: absolute;
+    top: -200px;
+
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      right: 100%;
+      top: 0;
+      height: 143px;
+      width: 500px;
+      background-color: #ffffff;
+    }
+  }
+
+  .blog-recent {
+    .post {
+      &>a {
+        display: block;
+        overflow: hidden;
+        aspect-ratio: 4 / 2.7;
+
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -ms-transform: scale(1);
+          -o-transform: scale(1);
+          transform: scale(1);
+
+          -webkit-transition: all 250ms;
+          -moz-transition: all 250ms;
+          -ms-transition: all 250ms;
+          -o-transition: all 250ms;
+          transition: all 250ms;
+
+          &:hover {
+            -webkit-transform: scale(1.1);
+            -moz-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            -o-transform: scale(1.1);
+            transform: scale(1.1);
+          }
+        }
+
+        &::after {
+          content: "";
+          display: block;
+          background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/decor_sx.svg);
+          height: 10px;
+          width: 100%;
+          background-position: left;
+          background-repeat: no-repeat;
+          background-size: auto 100%;
+          position: absolute;
+          top: 267px;
+          left: 0;
+
+          -webkit-transition: all 500ms;
+          -moz-transition: all 500ms;
+          -ms-transition: all 500ms;
+          -o-transition: all 500ms;
+          transition: all 500ms;
+        }
+      }
+
+      h3.title {
+        font-size: 20px;
+        text-transform: uppercase;
+        margin-top: 30px;
+        color: #222222;
+        opacity: 1;
+
+        -webkit-transition: all 250ms;
+        -moz-transition: all 250ms;
+        -ms-transition: all 250ms;
+        -o-transition: all 250ms;
+        transition: all 250ms;
+
+        &:hover {
+          opacity: 0.5;
+        }
+      }
+
+      .meta-category {
+        display: none;
+      }
+
+      .excerpt {
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 1.5;
+        //excerpt lenght css
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        text-overflow: ellipsis;
+        overflow: hidden;
+      }
+    }
+  }
+}
+
+#section_contattaci {
+  .wpb_column:first-of-type {
+    padding-right: 10%;
+  }
+}
+
+.wpcf7 {
+  p {
+    padding-bottom: 0 !important;
+  }
+
+  .flex_custom {
+    display: flex;
+
+    p {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    &.mobile {
+      flex-direction: column-reverse;
+      align-items: flex-start;
+
+      .input_submit {
+        margin-top: 20px;
+      }
+    }
+
+    span.wpcf7-form-control-wrap[data-name="nome"],
+    span.wpcf7-form-control-wrap[data-name="cognome"],
+    span.wpcf7-form-control-wrap[data-name="email"],
+    span.wpcf7-form-control-wrap[data-name="telefono"] {
+      width: 49.4%;
+    }
+  }
+
+  .disclaimer {
+    p:first-child {
+      width: 81%;
+      display: flex;
+      align-items: center;
+
+      .wpcf7-acceptance {
+        margin-right: 5px;
+
+        .wpcf7-list-item {
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  .obbligatorio {
+    font-size: 12px;
+    font-style: italic;
+  }
+
+  input,
+  textarea {
+    border: 2px solid rgba(59, 65, 71, 0.2);
+    border-radius: 0;
+    margin-bottom: 10px;
+    background-color: #ffffff;
+  }
+
+  form.wpcf7-form .flex_custom .input_submit {
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+
+    input[type="submit"] {
+      font-weight: 200 !important;
+      margin-bottom: 0;
+      padding: 0 !important;
+      background-color: transparent !important;
+      color: #222222;
+      font-family: "Krona One", sans-serif;
+      font-size: 20px;
+      letter-spacing: 2px;
+      z-index: 1;
+      text-transform: uppercase;
+      display: block;
+      width: fit-content;
+      border: none !important;
+
+      margin-bottom: 0 !important;
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+      margin-top: 0 !important;
+      padding-bottom: 0 !important;
+      padding-top: 0 !important;
+      padding-right: 0 !important;
+      padding-left: 0 !important;
+
+      -webkit-transition: all 500ms;
+      -moz-transition: all 500ms;
+      -ms-transition: all 500ms;
+      -o-transition: all 500ms;
+      transition: all 500ms;
+    }
+
+    &::after {
+      content: "";
+      display: block;
+      background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/decor_sx.svg);
+      height: 10px;
+      width: 100%;
+      background-position: right;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      position: absolute;
+      top: 36px;
+      left: 0;
+
+      -webkit-transition: all 500ms;
+      -moz-transition: all 500ms;
+      -ms-transition: all 500ms;
+      -o-transition: all 500ms;
+      transition: all 500ms;
+    }
+
+    &:hover {
+      opacity: 0.5;
+
+      &::after {
+        left: 40px;
+      }
+    }
+  }
+
+  .wpcf7-spinner {
+    display: none;
+  }
+}
+
+.wpcf7-not-valid-tip {
+  position: absolute;
+  top: -15px !important;
+  left: 20px;
+}
+
+.homepage_slider {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  max-height: 100vh;
+  overflow: hidden;
+
+  .slider_galleria {
+    img {
+      height: 100vh;
+      width: 100vw !important;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  .row-bg-wrap {
+    z-index: 12;
+  }
+}
+
+//single post type Trasporto
+body.trasporto_carrozzina-template-default,
+body.guida_autonoma-template-default,
+body.prodotti_speciali-template-default {
+  .post-featured-img {
+    display: none !important;
+  }
+}
+
+.row.heading-title.hentry {
+  display: none;
+}
+
+#section_single_post_slider {
+  margin-bottom: 0;
+
+  .vc_col-sm-9 {
+    padding-left: 0;
+    min-height: 500px;
+    background-image: url("https://autointernazionale.it/wp-content/uploads/2022/10/bg_sample_no_content.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .vc_col-sm-3 {
+    padding-right: 0;
+    min-height: 500px;
+
+    .wpb_wrapper {
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .column-image-bg-wrap .column-image-bg {
+      height: 55%;
+      background-repeat: no-repeat;
+    }
+  }
+
+  &.prodotti .vc_col-sm-3 {
+    .column-image-bg-wrap .column-image-bg {
+      height: 100%;
+    }
+  }
+
+  a.btn_standard.nectar-button.large.regular.accent-color.regular-button {
+    //font-size: 14px;
+    //letter-spacing: 1px;
+    display: none !important;
+  }
+
+  .categoria_principale {
+    .wpb_wrapper {
+      img.megaicon {
+        width: 280px !important;
+        padding-left: 5vw;
+      }
+    }
+  }
+
+  section.sezione_galleria {
+    width: 940px;
+
+    .slider_galleria_nav {
+      display: none;
+    }
+
+    .slick-slide {
+      height: 500px;
+
+      a {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        background-color: #eaeaea;
+
+        img {
+          object-fit: cover;
+          max-width: none;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+
+    .slick-arrow {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      top: auto;
+      transform: none;
+      left: auto;
+      padding: 15px;
+      background-color: $r;
+      color: #fff;
+
+      &.fa-chevron-left {
+        right: 100px;
+        z-index: 9;
+        cursor: pointer;
+
+        &::after {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: -80px;
+          height: 56px;
+          width: 80px;
+          display: block;
+          background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/slider-deco.svg);
+          background-repeat: no-repeat;
+          background-size: contain;
+          background-position: top right;
+        }
+      }
+
+      &.fa-chevron-right {
+        cursor: pointer;
+      }
+    }
+
+    .slider__counter1,
+    .slider__counter2,
+    .slider__counter3,
+    .slider__counter4,
+    .slider__counter5 {
+      position: absolute;
+      z-index: 10;
+      bottom: 0;
+      right: 40px;
+      padding: 15px;
+      background-color: $r;
+      color: #fff;
+      font-family: "Krona One", sans-serif;
+    }
+  }
+}
+
+#section_content {
+  .prodotti_cat_box {
+    margin-bottom: 0;
+  }
+
+  .desc.prod {
+    margin-bottom: 45px;
+  }
+
+  .modelli_auto_box {
+    ul {
+      li::marker {
+        color: $r;
+      }
+    }
+  }
+
+  h3 {
+    margin-top: 45px;
+    font-size: 15px;
+    line-height: 1;
+    color: $r;
+
+    &.cod_custom {
+      margin-top: 0;
+      font-size: 12px;
+      color: #6a6a6a;
+    }
+
+    &.prodotto_cat {
+      color: $r;
+    }
+  }
+
+  h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 42px;
+    line-height: 1.1;
+  }
+
+  .anno,
+  .prezzo {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    color: #6a6a6a;
+    line-height: 1.5;
+  }
+
+  .row_col_wrap_12 {
+    padding: 0 8%;
+    margin-left: 0;
+    margin-right: 0;
+
+    .vc_col-sm-12 {
+      padding: 0;
+    }
+  }
+
+  section.menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+
+    h5 {
+      font-size: 12px;
+      line-height: 1;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      padding: 10px 20px;
+      border: 1px solid #222222;
+      margin-right: 10px;
+      margin-bottom: 5px;
+      cursor: pointer;
+
+      -webkit-transition: all 300ms;
+      -moz-transition: all 300ms;
+      -ms-transition: all 300ms;
+      -o-transition: all 300ms;
+      transition: all 300ms;
+
+      &:hover {
+        color: #fff;
+        border: 1px solid $r;
+        background-color: $r;
+      }
+    }
+  }
+
+  section.desc {
+    .flex_custom {
+      display: flex;
+      margin: 0 -5vw;
+      margin-top: 80px;
+      margin-bottom: 80px;
+      border-top: 1px solid #cccccc;
+      border-bottom: 1px solid #cccccc;
+
+      .box_1,
+      .box_2 {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+
+        h5,
+        h6 {
+          margin-bottom: 0;
+        }
+      }
+
+      .box_1 {
+        width: 60%;
+        padding: 20px 0 20px 5vw;
+        border-right: 1px solid #cccccc;
+      }
+
+      .box_2 {
+        width: 40%;
+        padding: 20px 0 20px 5vw;
+
+        h6:hover {
+          opacity: 0.5;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .ulteriori_info {
+      margin: 100px 0;
+
+      h4 {
+        margin: 0 auto;
+      }
+
+      a {
+        color: #222222;
+        padding: 10px 20px;
+        border: 1px solid #222222;
+        cursor: pointer;
+        margin: 40px auto 0 auto;
+        display: block;
+        width: fit-content;
+
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.6);
+        }
+      }
+    }
+  }
+
+  h4.separatore {
+    margin-bottom: 0;
+    padding: 40px 0;
+    border-top: 1px solid #cccccc;
+    margin-left: -5vw;
+    margin-right: -5vw;
+    text-align: center;
+  }
+
+  .box_image {
+    display: flex;
+    padding-bottom: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .image {
+      margin-right: 5px;
+      margin-left: 5px;
+
+      img {
+        height: 250px;
+        width: auto;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+  }
+}
+
+//switch
+.sezione_galleria {
+
+  &.sg1,
+  &.sg2,
+  &.sg3,
+  &.sg4,
+  &.sg5 {
+    &.active {
+      opacity: 1;
+      z-index: 9;
+    }
+
+    opacity: 0;
+    position: absolute;
+    z-index: 8;
+    top: 0 !important;
+    left: 0 !important;
+    bottom: auto !important;
+    right: auto !important;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s;
+  }
+}
+
+section.menu {
+  h5.btn1 {
+    &.active {
+      color: #fff;
+      border: 1px solid $r;
+      background-color: $r;
+    }
+  }
+
+  h5.btn2 {
+    &.active {
+      color: #fff;
+      border: 1px solid $r;
+      background-color: $r;
+    }
+  }
+
+  h5.btn3 {
+    &.active {
+      color: #fff;
+      border: 1px solid $r;
+      background-color: $r;
+    }
+  }
+
+  h5.btn4 {
+    &.active {
+      color: #fff;
+      border: 1px solid $r;
+      background-color: $r;
+    }
+  }
+
+  h5.btn5 {
+    &.active {
+      color: #fff;
+      border: 1px solid $r;
+      background-color: $r;
+    }
+  }
+}
+
+section.desc {
+  &.des1 {
+    &.active {
+      display: block;
+    }
+
+    display: none;
+  }
+
+  &.des2 {
+    &.active {
+      display: block;
+    }
+
+    display: none;
+  }
+
+  &.des3 {
+    &.active {
+      display: block;
+    }
+
+    display: none;
+  }
+
+  &.des4 {
+    &.active {
+      display: block;
+    }
+
+    display: none;
+  }
+
+  &.des5 {
+    &.active {
+      display: block;
+    }
+
+    display: none;
+  }
+}
+
+//archivio prodotti
+#section_titolo_archivio_prodotti {
+  .row-bg-overlay {
+    opacity: 1 !important;
+  }
+
+  .row-bg-overlay::after {
+    content: "";
+    display: block;
+    background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/prodotti_speciali_deco.png);
+    height: calc(100% + 81px);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    width: 19vw;
+    position: absolute;
+    top: -81px;
+    right: 0;
+  }
+
+  &.guida_autonoma_head {
+    .row-bg-overlay::after {
+      background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/guida_autonoma_deco.png);
+    }
+  }
+
+  &.trasporto_carozzina_head {
+    .row-bg-overlay::after {
+      background-image: url(https://autointernazionale.it/wp-content/uploads/2022/08/trasporto_carrozzina_deco.png);
+    }
+  }
+}
+
+.box_categoria {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+
+  h2 {
+    margin-top: 40px;
+  }
+
+  .nectar-split-heading {
+    &::before {
+      content: "";
+      display: block;
+      background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/decor_sx.svg);
+      height: 10px;
+      width: 100%;
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+  }
+
+  .wpb_raw_code .wpb_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+
+    .item_custom {
+      display: block;
+      background-color: #f6f6f6;
+      width: 31%;
+      margin: 1%;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      opacity: 1;
+      box-shadow: 3px 3px 40px rgba(42, 20, 20, 0.15);
+      overflow: hidden;
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform-origin: center center;
+      -moz-transform-origin: center center;
+      -ms-transform-origin: center center;
+      -o-transform-origin: center center;
+      transform-origin: center center;
+
+      -webkit-transition: all 300ms;
+      -moz-transition: all 300ms;
+      -ms-transition: all 300ms;
+      -o-transition: all 300ms;
+      transition: all 300ms;
+
+      .img {
+        height: 200px;
+        background-size: cover;
+        background-position: center;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        transform-origin: center bottom;
+
+        -webkit-transition: all 300ms;
+        -moz-transition: all 300ms;
+        -ms-transition: all 300ms;
+        -o-transition: all 300ms;
+        transition: all 300ms;
+      }
+
+      .prodotto_cat,
+      .cod_custom {
+        font-size: 9px;
+        line-height: 1;
+        margin-bottom: 0;
+        opacity: 0.75;
+      }
+
+      .prodotto_cat {
+        margin-bottom: 30px;
+        color: $r;
+        font-size: 12px;
+      }
+
+      .titolo {
+        font-size: 18px;
+        padding: 6% 4% 0 4%;
+        margin-bottom: 0;
+        line-height: 1.5;
+        margin-bottom: 10px;
+      }
+
+      .flex_custom {
+        //border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 0 4% 6% 4%;
+      }
+
+      &:hover {
+        opacity: 0.75;
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+
+        .img {
+          -webkit-transform: scale(1.05);
+          -moz-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          -o-transform: scale(1.05);
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+}
+
+/*#menu_hook {
+  position: fixed;
+  top:50%;
+  left: -160px;
+  z-index:99;
+
+  -webkit-transition: all 500ms;
+  -moz-transition: all 500ms;
+  -ms-transition: all 500ms;
+  -o-transition: all 500ms;
+  transition: all 500ms;
+  &:hover {
+    left: 0px;
+  }
+  .wpb_wrapper {
+    a {
+      display: block;
+      text-align: right;
+      position: relative;
+      &::after {
+        content: '';
+        position: absolute;
+        display: block;
+        height: 36px;
+        width: 36px;
+        background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/dec_menu_hook.svg);
+        background-repeat: no-repeat;
+        background-position: top left;
+        -webkit-background-size: contain;
+        background-size: contain;
+        top: 0;
+        right: -36px;
+      }
+      span {
+        white-space: nowrap;
+      }
+    }
+  }
+}
+.page-id-15 #menu_hook {
+  left: -260px;
+  &:hover {
+    left: 0px;
+  }
+} */
+
+#menu_hook {
+  padding-top: 2% !important;
+
+  .wpb_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    a {
+      background-color: #eae8e8 !important;
+      color: #222;
+
+      span {
+        color: #222;
+      }
+    }
+  }
+}
+
+//archivio veicoli
+#section_archive_main {
+  .box_filtri {
+    overflow: hidden;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+
+    form {
+      padding: 8%;
+      background: #f4f4f4;
+      width: fit-content;
+
+      ul {
+        margin-left: 0 !important;
+
+        li {
+          padding: 0 !important;
+
+          h4 {
+            margin-bottom: 0 !important;
+            padding-bottom: 0 !important;
+            padding-top: 0px !important;
+            font-size: 12px;
+          }
+        }
+
+        select {
+          background-color: #0000000a;
+        }
+      }
+
+      .sf-field-reset {
+        padding-top: 10px !important;
+        margin-top: 30px;
+        border-top: 1px solid rgba(0, 0, 0, 0.1);
+      }
+
+      &::after {
+        content: "";
+        display: block;
+        background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/decor_sx.svg);
+        height: 10px;
+        width: 100%;
+        background-position: left;
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+      }
+    }
+
+    .searchandfilter .noUi-connect {
+      background-color: #c73333ab;
+    }
+
+    &.close {
+      height: 0 !important;
+
+      -webkit-transition: all 300ms;
+      -moz-transition: all 300ms;
+      -ms-transition: all 300ms;
+      -o-transition: all 300ms;
+      transition: all 300ms;
+    }
+  }
+
+  .box_risultati {
+    .trasporti_main_box {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 40px;
+
+      .trasporti {
+        height: fit-content;
+        display: block;
+        background-color: #f6f6f6;
+        width: 48%;
+        margin: 0 1% 0 1%;
+        margin-bottom: 30px !important;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        opacity: 1;
+        box-shadow: 3px 3px 40px rgba(42, 20, 20, 0.15);
+        overflow: hidden;
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        -webkit-transform-origin: center center;
+        -moz-transform-origin: center center;
+        -ms-transform-origin: center center;
+        -o-transform-origin: center center;
+        transform-origin: center center;
+
+        -webkit-transition: all 300ms;
+        -moz-transition: all 300ms;
+        -ms-transition: all 300ms;
+        -o-transition: all 300ms;
+        transition: all 300ms;
+
+        .img {
+          height: 200px;
+          background-size: cover;
+          background-position: center;
+          border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+          -webkit-transform: scale(1);
+          -moz-transform: scale(1);
+          -ms-transform: scale(1);
+          -o-transform: scale(1);
+          transform: scale(1);
+          transform-origin: center bottom;
+
+          -webkit-transition: all 300ms;
+          -moz-transition: all 300ms;
+          -ms-transition: all 300ms;
+          -o-transition: all 300ms;
+          transition: all 300ms;
+        }
+
+        .prodotto_cat,
+        .cod_custom {
+          font-size: 9px;
+          line-height: 1;
+          margin-bottom: 0;
+          opacity: 0.75;
+        }
+
+        .prodotto_cat {
+          margin-bottom: 0;
+          color: #666666;
+          font-size: 10px;
+          line-height: 1.75;
+        }
+
+        .titolo {
+          font-size: 16px;
+          padding: 6% 4% 6% 4%;
+          margin-bottom: 0;
+          color: $r;
+          line-height: 1.25;
+        }
+
+        .allestimenti_custom {
+          border-top: 1px solid rgba(0, 0, 0, 0.2);
+          padding: 4%;
+
+          h5 {
+            margin-bottom: 5px;
+            color: #666666;
+            font-size: 10px;
+            line-height: 1.25;
+          }
+
+          h4 {
+            color: #111111;
+            font-size: 14px;
+            margin: 0;
+            line-height: 2;
+          }
+        }
+
+        .flex_custom {
+          border-top: 1px solid rgba(0, 0, 0, 0.2);
+          padding: 4%;
+          display: flex;
+          flex-wrap: wrap;
+
+          span {
+            color: #666666;
+            font-size: 10px;
+            line-height: 1.25;
+          }
+
+          div {
+            width: 50%;
+
+            h4 {
+              color: #111111;
+              font-size: 14px;
+              margin: 0;
+              line-height: 2;
+            }
+          }
+        }
+
+        &:hover {
+          opacity: 0.75;
+          -webkit-transform: scale(1.05);
+          -moz-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          -o-transform: scale(1.05);
+          transform: scale(1.05);
+
+          .img {
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            -o-transform: scale(1.05);
+            transform: scale(1.05);
+          }
+        }
+      }
+    }
+  }
+}
+
+.page-id-17,
+.page-id-15 {
+  #section_contattaci {
+    margin-top: 80px !important;
+  }
+}
+
+.page-id-13,
+.page-id-15,
+.page-id-17,
+.page-id-23 {
+  #breadcrumbs {
+    display: none;
+  }
+}
+
+.open-close-filtri {
+  color: $r;
+  cursor: pointer;
+  text-align: center;
+}
+
+//blog
+.page-id-23 {
+  article {
+    position: relative;
+
+    &::after {
+      content: "";
+      display: block;
+      background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/decor_sx.svg);
+      height: 10px;
+      width: 100%;
+      background-position: left;
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      position: absolute;
+      top: 4px;
+      left: 4px;
+    }
+
+    .inner-wrap {
+      border-radius: 0 !important;
+    }
+  }
+
+  .wp-block-group__inner-container {
+    h2 {
+      font-size: 20px;
+      color: $r;
+    }
+  }
+}
+
+.single-format-standard.single.single-post {
+
+  #breadcrumbs,
+  #author-bio {
+    display: none;
+  }
+
+  #single-below-header {
+
+    .meta-author,
+    .meta-comment-count {
+      display: none !important;
+    }
+
+    .meta-date {
+      border-left: 0 !important;
+    }
+  }
+
+  .return_btns {
+    text-align: center;
+    display: block;
+    background-color: #f4f4f4;
+    padding: 10px;
+
+    a {
+      margin: 20px;
+      font-weight: 800;
+      letter-spacing: 2px;
+    }
+  }
+}
+
+body.archive.category {
+  .section-title {
+    background-image: url("https://autointernazionale.it/wp-content/uploads/2022/07/slider-deco.svg");
+    background-position: right bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 36px;
+    padding-left: 36px;
+    background-color: #f4f4f4;
+    border-bottom: 0;
+
+    .subheader {
+      display: none;
+    }
+
+    h1 {
+      text-transform: uppercase;
+      color: $r;
+    }
+  }
+}
+
+.post-template-default.single.single-post {
+  #page-header-wrap {
+    h1.entry-title {
+      line-height: 1.25;
+    }
+  }
+}
+
+//categoria extra
+h2.line_custom {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: $r;
+    margin-left: 25px;
+  }
+}
+
+#section_descrizione_extra {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+#section_video {
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  .wpb_raw_code .wpb_wrapper .flex_custom {
+    display: flex;
+    justify-content: center;
+  }
+
+  iframe {
+    width: 48% !important;
+    height: 320px !important;
+    margin: 2%;
+  }
+}
+
+#section_buttons {
+  margin-top: 150px;
+  margin-bottom: 180px;
+
+  .wpb_raw_code .wpb_wrapper {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+#section_elenco_prodotti {
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  h2.line_custom {
+    margin-bottom: 60px;
+  }
+
+  .trasporti_main_box {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+
+    .trasporti {
+      height: fit-content;
+      display: block;
+      background-color: #f6f6f6;
+      width: 48%;
+      margin: 0 1% 0 1%;
+      margin-bottom: 30px !important;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      opacity: 1;
+      box-shadow: 3px 3px 40px rgba(42, 20, 20, 0.15);
+      overflow: hidden;
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      -webkit-transform-origin: center center;
+      -moz-transform-origin: center center;
+      -ms-transform-origin: center center;
+      -o-transform-origin: center center;
+      transform-origin: center center;
+
+      -webkit-transition: all 300ms;
+      -moz-transition: all 300ms;
+      -ms-transition: all 300ms;
+      -o-transition: all 300ms;
+      transition: all 300ms;
+
+      .img {
+        height: 200px;
+        background-size: cover;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+        -webkit-transform: scale(1);
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -o-transform: scale(1);
+        transform: scale(1);
+        transform-origin: center bottom;
+
+        -webkit-transition: all 300ms;
+        -moz-transition: all 300ms;
+        -ms-transition: all 300ms;
+        -o-transition: all 300ms;
+        transition: all 300ms;
+      }
+
+      .prodotto_cat,
+      .cod_custom {
+        font-size: 9px;
+        line-height: 1;
+        margin-bottom: 0;
+        opacity: 0.75;
+      }
+
+      .prodotto_cat {
+        margin-bottom: 0;
+        color: #666666;
+        font-size: 10px;
+        line-height: 1.75;
+      }
+
+      .titolo {
+        font-size: 16px;
+        padding: 6% 4% 6% 4%;
+        margin-bottom: 0;
+        color: $r;
+        line-height: 1.25;
+      }
+
+      .allestimenti_custom {
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 4%;
+
+        h5 {
+          margin-bottom: 5px;
+          color: #666666;
+          font-size: 10px;
+          line-height: 1.25;
+        }
+
+        h4 {
+          color: #111111;
+          font-size: 14px;
+          margin: 0;
+          line-height: 2;
+        }
+      }
+
+      .flex_custom {
+        border-top: 1px solid rgba(0, 0, 0, 0.2);
+        padding: 4%;
+        display: flex;
+        flex-wrap: wrap;
+
+        span {
+          color: #666666;
+          font-size: 10px;
+          line-height: 1.25;
+        }
+
+        div {
+          width: 50%;
+
+          h4 {
+            color: #111111;
+            font-size: 14px;
+            margin: 0;
+            line-height: 2;
+          }
+        }
+      }
+
+      &:hover {
+        opacity: 0.75;
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+
+        .img {
+          -webkit-transform: scale(1.05);
+          -moz-transform: scale(1.05);
+          -ms-transform: scale(1.05);
+          -o-transform: scale(1.05);
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
+}
+
+#section_elenco_prodotti2 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+
+  h2.line_custom {
+    margin-bottom: 60px;
+  }
+
+  .flex_custom {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .item_custom {
+    display: block;
+    background-color: #f6f6f6;
+    width: 31%;
+    margin: 1%;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    opacity: 1;
+    box-shadow: 3px 3px 40px rgba(42, 20, 20, 0.15);
+    overflow: hidden;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    -webkit-transform-origin: center center;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    transform-origin: center center;
+
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+
+    .img {
+      height: 200px;
+      background-size: cover;
+      -webkit-transform: scale(1);
+      -moz-transform: scale(1);
+      -ms-transform: scale(1);
+      -o-transform: scale(1);
+      transform: scale(1);
+      transform-origin: center bottom;
+
+      -webkit-transition: all 300ms;
+      -moz-transition: all 300ms;
+      -ms-transition: all 300ms;
+      -o-transition: all 300ms;
+      transition: all 300ms;
+    }
+
+    .prodotto_cat,
+    .cod_custom {
+      font-size: 9px;
+      line-height: 1;
+      margin-bottom: 0;
+      opacity: 0.75;
+    }
+
+    .prodotto_cat {
+      margin-top: 10px;
+      color: $r;
+      font-size: 12px;
+    }
+
+    .titolo {
+      font-size: 18px;
+      padding: 6% 4% 0 4%;
+      margin-bottom: 0;
+    }
+
+    .flex_custom {
+      //border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      padding: 0 4% 6% 4%;
+    }
+
+    &:hover {
+      opacity: 0.75;
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      transform: scale(1.05);
+
+      .img {
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        transform: scale(1.05);
+      }
+    }
+  }
+}
+
+#section_image_grid {
+  .flex_custom {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    a {
+      max-height: 300px;
+      max-width: 350px;
+      margin: 20px;
+      overflow: hidden;
+
+      img {
+        object-fit: contain;
+        object-position: center;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+//chi siamo
+body.page-id-21 .info {
+  i {
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+
+  p {
+    padding-bottom: 10px !important;
+  }
+
+  p:first-child {
+    font-weight: 700;
+    padding-bottom: 30px !important;
+  }
+
+  h4 {
+    letter-spacing: 2px;
+    color: #c73333;
+  }
+}
+
+//contatti
+a.toggle-heading {
+  line-height: 1.5 !important;
+}
+
+.interactive_map_ctrl {
+  .wpb_wrapper {
+    height: 100%;
+
+    .nectar-leaflet-map {
+      height: 100% !important;
+    }
+  }
+}
+
+//prodotto
+.btn_sceheda_tecnica {
+  padding: 10px 25px;
+  display: block;
+  width: fit-content;
+  background-color: #c73333;
+  color: #fff;
+  transform: skewX(-5deg);
+  margin-bottom: 60px;
+}
+
+//menu pointer event
+header#top {
+  position: relative;
+
+  &::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 999;
+  }
+
+  &.free {
+    &::after {
+      content: none;
+    }
+  }
+}
+
+//menu mobile
+.mobile-only .menu-item-has-children .menu-item-has-children {
+  padding: 15px !important;
+  background: #ffffff17 !important;
+}
+
+//item custom
+.item_custom {
+  display: block;
+  background-color: #f6f6f6;
+  width: 31%;
+  margin: 1%;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  opacity: 1;
+  box-shadow: 3px 3px 40px rgba(42, 20, 20, 0.15);
+  overflow: hidden;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-transform-origin: center center;
+  -moz-transform-origin: center center;
+  -ms-transform-origin: center center;
+  -o-transform-origin: center center;
+  transform-origin: center center;
+
+  -webkit-transition: all 300ms;
+  -moz-transition: all 300ms;
+  -ms-transition: all 300ms;
+  -o-transition: all 300ms;
+  transition: all 300ms;
+
+  .img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+    transform-origin: center bottom;
+
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
+  }
+
+  .prodotto_cat,
+  .cod_custom {
+    font-size: 9px;
+    line-height: 1;
+    margin-bottom: 0;
+    opacity: 0.75;
+  }
+
+  .prodotto_cat {
+    margin-bottom: 30px;
+    color: $r;
+    font-size: 12px;
+  }
+
+  .titolo {
+    font-size: 18px;
+    padding: 6% 4% 0 4%;
+    margin-bottom: 0;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+
+  .flex_custom {
+    //border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 0 4% 6% 4%;
+  }
+
+  &:hover {
+    opacity: 0.75;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+
+    .img {
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -o-transform: scale(1.05);
+      transform: scale(1.05);
+    }
+  }
+
+  .bedge_new {
+    max-width: 20%;
+    position: absolute;
+    z-index: 2;
+    top: 10px;
+    right: 8px;
+  }
+}
+
+.search-filter-results {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 10px;
+
+  .item_custom {
+    width: 100%;
+  }
+
+  @media (max-width: 999px) {
+    display: block;
+  }
+}
+
+//bedge_new
+.menu-item.aggiungi_bedge_new {
+  position: relative;
+}
+
+.sub-menu {
+  overflow: visible !important;
+}
+
+.menu-item.aggiungi_bedge_new::after {
+  content: '';
+  background-image: url(https://autointernazionale.it/wp-content/uploads/2025/10/bedge_new.png);
+  background-size: contain;
+  background-position: center right;
+  background-repeat: no-repeat;
+  display: block;
+  width: 40px;
+  height: 20px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-110%, -14%);
+  filter: drop-shadow(0px 0px 5px #ffffff40);
+
+  @media(max-width: 999px) {
+    transform: translate(-100%, 27%);
+  }
+}
+
+//toggle menu
+#header-outer nav ul.sf-menu li.megamenu>ul.sub-menu>li.menu-item {
+  &>a {
+    padding: 20px;
+    background-color: #ffffff11 !important;
+    border-top-right-radius: 50vh;
+    border-bottom-right-radius: 50vh;
+    border-top-left-radius: 200px;
+    border-bottom-left-radius: 200px;
+    justify-content: space-between;
+
+    &::after {
+      content: "+";
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50vh;
+      height: 30px;
+      min-height: 30px;
+      max-height: 30px;
+      width: 30px;
+      max-width: 30px;
+      min-width: 30px;
+      background-color: rgba(255, 255, 255, 0.25);
+      border: 2px solid #ffffff;
+      font-size: 18px;
+    }
+  }
+
+  height: 65px;
+  padding-right: 0 !important;
+  overflow: hidden !important;
+  transition: all 300ms;
+
+  &>ul.sub-menu {
+    display: none !important;
+    padding-left: 66px;
+    padding-right: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  &.attivo {
+    &>a::after {
+      content: "-";
+    }
+
+    height: fit-content;
+    overflow: visible !important;
+    z-index: 999;
+    background-color: #000;
+    border-radius: 10px;
+
+    &>ul.sub-menu {
+      display: block !important;
+    }
+  }
+}
+
+//recaptcha
+.grecaptcha-badge {
+  display: none !important;
+}
+
+@media (max-width: 690px) {
+  body.home h1 {
+    font-size: 1.5em !important;
+  }
+}
+
+//fine
+@media (min-width: 691px) and (max-width: 999px) {
+  body.home h1 {
+    font-size: 1.9em !important;
+  }
+}
+
+//fine
+@media (min-width: 1000px) and (max-width: 1300px) {
+  body.home h1 {
+    font-size: 2.4em !important;
+  }
+}
+
+//fine
+@media (min-width: 1301px) {
+  body.home h1 {
+    font-size: 2.4em !important;
+  }
+}
+
+//fine
+
+//RESPONSIVE________________________________________________________________
+@media (max-width: 690px) {
+  .wpcf7-not-valid-tip {
+    font-size: 12px !important;
+  }
+
+  #section_single_post_slider .vc_col-sm-9 {
+    min-height: 320px !important;
+  }
+
+  .container {
+    max-width: 90%;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  body h1 {
+    font-size: 24px;
+    line-height: 1;
+  }
+
+  a.btn_custom {
+    left: 49.55vw;
+    font-size: 16px;
+    white-space: nowrap;
+    bottom: 3vh;
+  }
+
+  #slide-out-widget-area {
+    .right-side {
+      display: none !important;
+    }
+
+    .left-side {
+      width: 100% !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  h2.line_custom {
+    &.text_wrap {
+      white-space: normal;
+      font-size: 16px;
+      line-height: 1.25;
+    }
+  }
+
+  #section_single_post_slider .vc_col-sm-9 {
+    min-height: auto;
+  }
+
+  //menu
+  #header-outer {
+    height: 104px;
+    display: flex;
+    align-items: center;
+
+    nav {
+      ul.sf-menu {
+        li {
+          &.megamenu.columns-6 {
+            &>ul.sub-menu {
+              a.btn_custom {
+                font-size: 16px;
+              }
+            }
+          }
+
+          a {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+
+    #top .col.col_last.span_9 {
+      margin-left: 0;
+    }
+  }
+
+  li.megamenu>.sub-menu>li ul,
+  li.megamenu>ul {
+    max-height: fit-content !important;
+    margin-bottom: 25px !important;
+  }
+
+  li.megamenu>ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    &>li {
+      width: 47%;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      margin-right: 3% !important;
+      margin-left: 0 !important;
+
+      &>a:first-child {
+        height: 65px;
+        align-items: center;
+        display: flex !important;
+
+        &>ul.submenu {
+          margin-left: 0 !important;
+        }
+      }
+    }
+  }
+
+  li.megamenu.menu-item-28>ul,
+  li.megamenu.menu-item-30>ul  {
+    &>li {
+      &>a:first-child {
+        height: 40px;
+        align-items: center;
+        padding: 4px 6px;
+        //font-size: 12px!important;
+        // border-bottom: 1px solid #000;
+        border-bottom: 1px solid #fff;
+        margin-bottom: 8px;
+        // color: #000 !important;
+      }
+    }
+  }
+
+  li.megamenu>a {
+    margin-bottom: 30px !important;
+  }
+
+  body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent.scrolled-down {
+    background-color: #fff !important;
+  }
+
+  body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent.scrolled-down.side-widget-open {
+    background-color: transparent !important;
+  }
+
+  body.material #slide-out-widget-area[class*="slide-out-from-right"] .off-canvas-menu-container li a:after,
+  #slide-out-widget-area.fullscreen-split .inner .off-canvas-menu-container li a:after,
+  #slide-out-widget-area .tagcloud a:hover {
+    border-color: transparent;
+  }
+
+  #slide-out-widget-area.fullscreen-split .off-canvas-menu-container li ul.sub-menu {
+    margin-left: 0;
+  }
+
+  #slide-out-widget-area[data-dropdown-func].fullscreen-split .inner .off-canvas-menu-container li li a {
+    font-size: 12px !important;
+    line-height: 12px !important;
+  }
+
+  //sections
+  #section_blog_evidenza {
+    margin-top: 150px !important;
+
+    .wpb_wrapper>div:first-child {
+      padding: 20px 95px 20px 0;
+      top: -150px;
+    }
+
+    .wpb_wrapper>div:first-child::after {
+      height: 108px;
+    }
+
+    .blog-recent .post>a::after {
+      top: 226px;
+    }
+  }
+
+  #section_cta_about {
+    a.btn_standard {
+      margin: 40px auto 0 auto !important;
+    }
+  }
+
+  #section_hero .row-bg-overlay::after {
+    bottom: 0;
+    width: 61vw;
+  }
+
+  #section_boxes {
+    .col_decoration {
+      .column-image-bg {
+        height: 55%;
+      }
+
+      .vc_column-inner>.wpb_wrapper {
+        padding: 30px 0 45px 30px;
+      }
+
+      &.destra {
+        .vc_column-inner>.wpb_wrapper {
+          padding: 50px 50px 65px 0;
+        }
+      }
+    }
+  }
+
+  //footer
+  #footer-outer #copyright .col.span_5 {
+    display: block;
+    text-align: center;
+    margin-bottom: 0;
+
+    div {
+      margin-top: 15px;
+    }
+  }
+
+  //slider
+  #section_single_post_slider {
+    .vc_col-sm-3 .column-image-bg-wrap .column-image-bg {
+      height: 100%;
+    }
+
+    .row_col_wrap_12 {
+      margin-left: 0;
+
+      .vc_col-sm-3 {
+        display: none;
+      }
+    }
+
+    section.sezione_galleria {
+      .slick-arrow.fa-chevron-left {
+        right: 100px !important;
+        z-index: 9;
+        cursor: pointer;
+      }
+    }
+  }
+
+  #section_single_post_slider {
+    height: 320px;
+
+    section.sezione_galleria.prod {
+      height: 320px;
+      width: auto;
+
+      .slider_galleria {
+        height: 320px;
+      }
+
+      .slick-slide {
+        height: 320px;
+
+        a {
+          height: 320px;
+        }
+      }
+    }
+
+    section.sezione_galleria:not(.prod) {
+      height: 320px;
+      width: 100%;
+
+      .slider_galleria {
+        height: 320px;
+      }
+
+      .slick-slide {
+        height: 320px;
+
+        a {
+          height: 320px;
+        }
+      }
+    }
+
+    a.btn_standard.nectar-button.large.regular.accent-color.regular-button {
+      font-size: 12px;
+    }
+  }
+
+  //single posts
+  #section_content {
+    h1 {
+      font-size: 15px;
+    }
+
+    .anno,
+    .prezzo {
+      font-size: 12px;
+    }
+
+    .box_image {
+      flex-wrap: wrap;
+
+      .image {
+        width: 100%;
+        margin-right: 0;
+        margin-left: 0;
+
+        img {
+          height: 100%;
+          width: 100%;
+          margin: 0 auto;
+          display: block;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  section.desc {
+
+    h6,
+    h5 {
+      font-size: 12px !important;
+      letter-spacing: 0;
+      line-height: 1.5 !important;
+    }
+
+    .flex_custom {
+      flex-direction: column;
+
+      .box_1 {
+        width: 100% !important;
+        border-bottom: 1px solid #cccccc;
+        border-right: 0 !important;
+      }
+
+      .box_2 {
+        width: 100% !important;
+      }
+    }
+  }
+
+  //archivio prodotti
+  #menu_hook {
+    //display: none;
+  }
+
+  .box_categoria {
+    .wpb_raw_code .wpb_wrapper .item_custom {
+      width: 100%;
+    }
+
+    h2 {
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    .nectar-split-heading {
+      &::before {
+        top: 20px;
+      }
+    }
+  }
+
+  #section_titolo_archivio_prodotti {
+    margin-bottom: 40px;
+
+    .row_col_wrap_12.col.span_12 {
+      padding-right: 75px;
+    }
+  }
+
+  .box_categoria .nectar-split-heading::before {
+    background-size: auto 65%;
+    top: 25px;
+    left: 10px;
+
+    .box_categoria h2 {
+      font-size: 16px;
+      line-height: 25px;
+    }
+  }
+
+  //archivio-trasporti
+  #section_archive_main {
+    .box_risultati .trasporti_main_box .trasporti {
+      width: 100%;
+    }
+
+    .box_filtri form {
+      width: 100%;
+      margin-bottom: 30px;
+
+      ul li label {
+        width: 100%;
+      }
+
+      div[data-sf-field-name="_sfm_anno"],
+      div[data-sf-field-name="_sfm_prezzo"] {
+        label {
+          width: auto;
+        }
+      }
+    }
+  }
+
+  #section_elenco_prodotti {
+    .trasporti_main_box .trasporti {
+      width: 100%;
+    }
+  }
+
+  //blog single post
+  .post-template-default.single.single-post {
+    #page-header-wrap {
+      h1.entry-title {
+        font-size: 25px;
+      }
+    }
+  }
+
+  //categoria extra
+  #section_video {
+    .wpb_raw_code .wpb_wrapper .flex_custom {
+      flex-wrap: wrap;
+
+      iframe {
+        width: 100% !important;
+      }
+    }
+  }
+
+  #section_buttons {
+    .wpb_raw_code .wpb_wrapper {
+      flex-wrap: wrap;
+
+      a.btn_standard {
+        margin-bottom: 100px !important;
+      }
+
+      a.btn_standard:last-of-type {
+        margin-bottom: 0 !important;
+      }
+    }
+  }
+
+  #section_elenco_prodotti2 {
+    .item_custom {
+      width: 100%;
+    }
+  }
+
+  //contatti
+  body.page-id-507 .first-section {
+    .row_col_wrap_12 {
+      flex-direction: column-reverse;
+
+      div.nectar-leaflet-map {
+        height: 500px !important;
+      }
+    }
+  }
+}
+
+//fine
+@media (min-width: 691px) and (max-width: 999px) {
+  #section_single_post_slider .vc_col-sm-9 {
+    min-height: 320px !important;
+  }
+
+  .container {
+    max-width: 690px;
+    width: 690px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  body h1 {
+    font-size: 35px;
+    line-height: 1;
+  }
+
+  a.btn_custom {
+    left: 70.55vw;
+    font-size: 16px;
+    white-space: nowrap;
+  }
+
+  #slide-out-widget-area {
+    .right-side {
+      display: none !important;
+    }
+
+    .left-side {
+      width: 100% !important;
+      padding-right: 0 !important;
+    }
+  }
+
+  #section_single_post_slider .vc_col-sm-9 {
+    min-height: auto;
+  }
+
+  //menu
+  #header-outer {
+    height: 104px;
+    display: flex;
+    align-items: center;
+
+    nav {
+      ul.sf-menu {
+        li {
+          &.megamenu.columns-6 {
+            &>ul.sub-menu {
+              a.btn_custom {
+                font-size: 16px;
+              }
+            }
+          }
+
+          a {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+
+    #top .col.col_last.span_9 {
+      margin-left: 0;
+    }
+  }
+
+  li.megamenu>.sub-menu>li ul,
+  li.megamenu>ul {
+    max-height: fit-content !important;
+    margin-bottom: 25px !important;
+  }
+
+  li.megamenu>.sub-menu>li ul {}
+
+  li.megamenu>ul {
+    display: flex;
+    flex-wrap: wrap;
+
+    &>li {
+      width: 30%;
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+      margin-right: 3% !important;
+      margin-left: 0 !important;
+
+      &>a:first-child {
+        height: 65px;
+        align-items: center;
+        display: flex !important;
+
+        &>ul.submenu {
+          margin-left: 0 !important;
+        }
+      }
+    }
+  }
+
+  li.megamenu>a {
+    margin-bottom: 30px !important;
+  }
+
+  body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent.scrolled-down {
+    background-color: #fff !important;
+  }
+
+  body[data-bg-header="true"] #header-outer[data-permanent-transparent="1"].transparent.scrolled-down.side-widget-open {
+    background-color: transparent !important;
+  }
+
+  body.material #slide-out-widget-area[class*="slide-out-from-right"] .off-canvas-menu-container li a:after,
+  #slide-out-widget-area.fullscreen-split .inner .off-canvas-menu-container li a:after,
+  #slide-out-widget-area .tagcloud a:hover {
+    border-color: transparent;
+  }
+
+  #slide-out-widget-area.fullscreen-split .off-canvas-menu-container li ul.sub-menu {
+    margin-left: 0;
+  }
+
+  #section_blog_evidenza .blog-recent .post>a::after {
+    top: 402.5px;
+  }
+
+  #section_cta_about {
+    a.btn_standard {
+      margin: 40px auto 0 auto !important;
+    }
+  }
+
+  //slider
+  #section_single_post_slider {
+    .vc_col-sm-3 .column-image-bg-wrap .column-image-bg {
+      height: 100%;
+    }
+
+    .row_col_wrap_12 {
+      margin-left: 0;
+
+      .vc_col-sm-3 {
+        display: none;
+      }
+    }
+  }
+
+  #section_single_post_slider {
+    .vc_col-sm-9 {
+      min-height: 420px;
+    }
+
+    .vc_col-sm-3 {
+      min-height: 420px;
+    }
+
+    section.sezione_galleria {
+      width: 690px;
+
+      .slick-slide {
+        height: 420px;
+        width: 690px !important;
+
+        a {
+          height: 420px;
+          width: 690px !important;
+        }
+      }
+    }
+
+    a.btn_standard.nectar-button.large.regular.accent-color.regular-button {
+      font-size: 12px;
+    }
+  }
+
+  #section_content {
+    h1 {
+      font-size: 28px;
+    }
+  }
+
+  section.desc {
+
+    h6,
+    h5 {
+      font-size: 12px !important;
+      letter-spacing: 0;
+      line-height: 1.5 !important;
+    }
+  }
+
+  //archivio prodotti
+  #menu_hook {
+    top: 25%;
+    left: -175px;
+  }
+
+  .box_categoria {
+    .wpb_raw_code .wpb_wrapper .item_custom {
+      width: 48%;
+    }
+
+    h2 {
+      font-size: 20px;
+      line-height: 45px;
+    }
+
+    .nectar-split-heading::before {
+      top: 30px;
+      left: 20px;
+    }
+  }
+
+  //archivio-trasporti
+  #section_archive_main {
+    .row_col_wrap_12.col.span_12 {
+      flex-wrap: nowrap !important;
+
+      .vc_col-sm-4 {
+        width: 33.33333333% !important;
+      }
+
+      .vc_col-sm-8 {
+        width: 66.66666667% !important;
+      }
+    }
+
+    .box_risultati .trasporti_main_box .trasporti {
+      width: 100%;
+    }
+  }
+
+  #section_elenco_prodotti {
+    .trasporti_main_box .trasporti {
+      width: 100%;
+    }
+  }
+
+  //categoria extra
+  #section_video {
+    .wpb_raw_code .wpb_wrapper .flex_custom {
+      flex-wrap: wrap;
+
+      iframe {
+        width: 100% !important;
+      }
+    }
+  }
+
+  #section_elenco_prodotti2 {
+    .item_custom {
+      width: 48%;
+    }
+  }
+
+  //contatti
+  body.page-id-507 .first-section {
+    .row_col_wrap_12 {
+      flex-direction: column-reverse;
+
+      div.nectar-leaflet-map {
+        height: 500px !important;
+      }
+    }
+  }
+}
+
+//fine
+@media (min-width: 1000px) and (max-width: 1300px) {
+
+  //revisione menu
+  #header-outer #logo img,
+  #header-outer .logo-spacing img {
+    height: 30px;
+  }
+
+  #header-outer nav ul.sf-menu li.megamenu>ul.sub-menu>li ul.sub-menu li a span {
+    letter-spacing: 0 !important;
+  }
+
+  #header-outer nav ul.sf-menu li.megamenu.columns-6>ul.sub-menu>li>a:first-child {
+    img {
+      max-width: 65% !important;
+    }
+  }
+
+  #header-outer #menu-item-393 {
+    width: 25%;
+    min-width: 25%;
+    max-width: 100%;
+    height: fit-content !important;
+  }
+
+  .container {
+    max-width: 990px;
+    width: 990px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  body h1 {
+    font-size: 35px;
+    line-height: 1;
+  }
+
+  a.btn_custom {
+    left: 74.55vw;
+    font-size: 16px;
+  }
+
+  #header-outer {
+    nav {
+      ul.sf-menu {
+        li {
+          &.megamenu.columns-6 {
+            &>ul.sub-menu {
+              a.btn_custom {
+                font-size: 16px;
+              }
+            }
+          }
+
+          a {
+            font-size: 10px;
+          }
+        }
+      }
+    }
+
+    #top .col.col_last.span_9 {
+      margin-left: 0;
+    }
+  }
+
+  #section_blog_evidenza .blog-recent .post>a::after {
+    top: 212.5px;
+  }
+
+  //single veicoli - galleria
+  #section_single_post_slider {
+    .vc_col-sm-9 {
+      min-height: 475px;
+    }
+
+    .vc_col-sm-3 {
+      min-height: 475px;
+    }
+
+    section.sezione_galleria {
+      width: 747px;
+      height: 475px;
+
+      .sezione_galleria {
+        height: 475px;
+      }
+
+      .slick-slide {
+        height: 475px;
+        width: 747px !important;
+
+        a {
+          height: 475px;
+          width: 747px !important;
+        }
+      }
+    }
+
+    a.btn_standard.nectar-button.large.regular.accent-color.regular-button {
+      font-size: 12px;
+    }
+  }
+
+  #section_single_post_slider .vc_col-sm-9 {
+    width: 74%;
+  }
+
+  //archivio prodotti
+  #menu_hook {
+    top: 25%;
+  }
+}
+
+//fine
+@media (min-width: 1301px) {
+  #section_single_post_slider section.sezione_galleria .slick-slide {
+    width: 940px !important;
+
+    a {
+      width: 940px !important;
+    }
+  }
+
+  #section_single_post_slider .vc_col-sm-9 {
+    width: 74%;
+  }
+}
+
+.search-filter-results {
+  position: relative;
+}
+
+.search-filter-results .pagination {
+  width: 100%;
+  position: absolute;
+  bottom: -50px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 4px;
+}
+
+.search-filter-results .pagination a {
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #c73333;
+  padding: 10px 20px ;
+  color: white;
+  border-radius: 2px;
+}
+
+.off-news-header {
+  margin-bottom: 50px;
+  .off-news-header__inner {
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    text-align: center;
+    padding: 74px 0;
+
+    h1 {
+      margin: 0 auto;
+      max-width: 1000px;
+      line-height: 1.25;
+      font-size: 44px;
+      padding: 20px 0 20px 0;
+      @media screen and (max-width: 768px) {
+        font-size: 25px;
+      }
+    }
+
+  }
+  &__categories {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    a{
+      color: #222222;
+      font-weight: 600;
+      border: var(--nectar-border-thickness) solid rgba(000, 000, 000, 0.4);
+      padding: 4px 10px;
+      margin: 5px 6px 0 5px;
+      display: inline-block;
+      transition: all 0.2s ease;
+      -webkit-transition: all 0.2s ease;
+      font-size: 14px;
+      line-height: 18px;
+      &:hover{
+        color: white;
+        background-color: #c73333!important;
+        border-color: transparent;
+      }
+    }
+
+  }
+
+  &__imagebox{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    img{
+      width: 100%;
+      max-width: 1000px !important;
+    }
+  }
+}
+
+.post-template-default{
+  #page-header-wrap{
+    display: none;
+  }
+  .container-wrap{
+    padding-top: 0 !important;
+  }
+}
+
