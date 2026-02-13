@@ -122,7 +122,7 @@ a.btn_standard.nectar-button.large.regular.accent-color.regular-button:hover::af
 #header-outer nav ul.sf-menu li {
   text-transform: uppercase;
 }
-#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu {
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu, #header-outer nav ul.sf-menu li.megamenu.columns-5 > ul.sub-menu {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 65px 65px 65px 65px;
@@ -130,7 +130,7 @@ a.btn_standard.nectar-button.large.regular.accent-color.regular-button:hover::af
   overflow: visible !important;
   height: calc(100vh - 164px);
 }
-#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu::after {
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu::after, #header-outer nav ul.sf-menu li.megamenu.columns-5 > ul.sub-menu::after {
   content: "";
   display: block;
   background-image: url(https://autointernazionale.it/wp-content/uploads/2022/07/decor-element.svg);
@@ -143,23 +143,23 @@ a.btn_standard.nectar-button.large.regular.accent-color.regular-button:hover::af
   top: -104px;
   right: 0;
 }
-#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu a.btn_custom {
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu a.btn_custom, #header-outer nav ul.sf-menu li.megamenu.columns-5 > ul.sub-menu a.btn_custom {
   color: #ffffff;
   line-height: 26px !important;
   left: calc(74.43vw - 3px);
   bottom: 20.5vh;
 }
-#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li {
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li, #header-outer nav ul.sf-menu li.megamenu.columns-5 > ul.sub-menu > li {
   width: auto;
   min-width: auto;
   max-width: auto;
 }
-#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li > a:first-child {
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li > a:first-child, #header-outer nav ul.sf-menu li.megamenu.columns-5 > ul.sub-menu > li > a:first-child {
   height: 65px;
   display: flex;
   align-items: center;
 }
-#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li a {
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li a, #header-outer nav ul.sf-menu li.megamenu.columns-5 > ul.sub-menu > li a {
   margin-left: 0;
   margin-right: 0;
   padding: 0;
@@ -168,10 +168,10 @@ a.btn_standard.nectar-button.large.regular.accent-color.regular-button:hover::af
   font-size: 11px;
   background-color: transparent !important;
 }
-#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li a img[alt=HYUNDAI] {
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li a img[alt=HYUNDAI], #header-outer nav ul.sf-menu li.megamenu.columns-5 > ul.sub-menu > li a img[alt=HYUNDAI] {
   height: 65px;
 }
-#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li ul.sub-menu li a span {
+#header-outer nav ul.sf-menu li.megamenu.columns-6 > ul.sub-menu > li ul.sub-menu li a span, #header-outer nav ul.sf-menu li.megamenu.columns-5 > ul.sub-menu > li ul.sub-menu li a span {
   font-family: "Montserrat", sans-serif !important;
   letter-spacing: 1px !important;
 }

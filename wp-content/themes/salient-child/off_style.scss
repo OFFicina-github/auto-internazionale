@@ -167,7 +167,8 @@ a.btn_standard.nectar-button.large.regular.accent-color.regular-button {
       li {
         text-transform: uppercase;
 
-        &.megamenu.columns-6 {
+        &.megamenu.columns-6,
+        &.megamenu.columns-5 {
           &>ul.sub-menu {
             //flex-wrap: wrap;
             //display: flex;
