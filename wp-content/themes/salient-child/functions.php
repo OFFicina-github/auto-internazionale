@@ -576,3 +576,5 @@ add_filter('wp_resource_hints', function ($hints, $relation_type) {
     }
     return $hints;
 }, 10, 2);
+
+// nel caso aggiornamento sito httpdocs/wp-content/themes/salient/nectar/helpers/page-header.php c'è sttringa  <h1 class="entry-title titolo-da-togliere"><?php // the_title();  da silenziare
