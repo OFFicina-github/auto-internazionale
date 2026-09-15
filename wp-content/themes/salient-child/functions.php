@@ -576,23 +576,3 @@ add_filter('wp_resource_hints', function ($hints, $relation_type) {
     }
     return $hints;
 }, 10, 2);
-
-
-// test
-
-function empty_title($title)
-{
-    return '';
-}
-
-function filtro_titolo_single()
-{
-    add_filter('the_title', 'empty_title');
-}
-add_action('nectar_single_post_header_before_title', 'filtro_titolo_single');
-
-function disattiva_filtro_titolo_single()
-{
-    remove_filter('the_title', 'empty_title');
-}
-add_action('nectar_single_post_header_after_title', 'disattiva_filtro_titolo_single');
